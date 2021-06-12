@@ -2,7 +2,7 @@
 
 Un e-commerce sobre js, node para aprender a trabajar en un proyecto con múltiples colaboradores. Es la oportunidad para cometer errores y aprender.
 
- ###El e-commerce va a estar dividido en los siguiente módulos:
+ ### El e-commerce va a estar dividido en los siguiente módulos:
 
 Desarrollamos este ecommerce debido a la actualidad de la pandemia, la tienda digital comercializamos productos
 para que la gente pueda acceder a comprar productos con mayor agilidad y accesibilidad, este proyecto está pensado
@@ -24,14 +24,14 @@ Líder de producto: es la persona que decide qué funcionalidad se va a implemen
 Integrador: es la persona que revisa e integra los Pull Requests de los colaboradores.
 Colaboradores: son los que implementan la funcionalidad.
 
-Configuración
+### Configuración
 Para trabajar sobre este proyecto debes tener instalado lo siguiente:
 
 GIT
 NODE
 EXPRESS
 
-###INTEGRANTES:
+### INTEGRANTES:
 
 Soy Diaz Emiliano, tengo 21 años soy de bs as, florencio varela, soy una persona muy curiosa y siempre me gusta aprender algo nuevo cada día
 me gusta jugar videojuegos y estudiar inglés :), comenzé a interesarme en la programacion por grupos de pc gamers, ya que
@@ -47,7 +47,7 @@ https://www.fullh4rd.com.ar/
 https://www.gezatek.com.ar/
 https://www.razer.com/
 
-###Wireframe
+### Wireframe
 
 Vistas desktop, mobile, y tablet.
 Home
