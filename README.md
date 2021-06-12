@@ -35,7 +35,9 @@ EXPRESS
 
 Soy Diaz Emiliano, tengo 21 años soy de bs as, florencio varela, soy una persona muy curiosa y siempre me gusta aprender algo nuevo cada día
 me gusta jugar videojuegos y estudiar inglés :), comenzé a interesarme en la programacion por grupos de pc gamers, ya que
-es uno de mis hobbys, también siempre tuve afinidad con la pc y me gustaría poder trabajar de esto en un futuro.
+es uno de mis hobbys, también siempre tuve afinidad con la pc y me gustaría poder trabajar de esto en un futuro, gracias a la fundacion formar
+y a digital house que me dieron esta oportunidad de poder capacitarme constantemente en el area de la programacion, gracias a mis dos 
+compañeros por ponerle tantas ganas a este proyecto y tratar de hacer de hacer lo mejor posible por el equipo.
 
 
 
