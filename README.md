@@ -1,4 +1,4 @@
-##ECOMMERCE
+## ECOMMERCE
 
 Un e-commerce sobre js, node para aprender a trabajar en un proyecto con múltiples colaboradores. Es la oportunidad para cometer errores y aprender.
 
