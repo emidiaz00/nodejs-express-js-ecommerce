@@ -39,6 +39,7 @@ es uno de mis hobbys, también siempre tuve afinidad con la pc y me gustaría po
 y a digital house que me dieron esta oportunidad de poder capacitarme constantemente en el area de la programacion, gracias a mis dos 
 compañeros por ponerle tantas ganas a este proyecto y tratar de hacer de hacer lo mejor posible por el equipo.
 
+Soy Matias Autalan, tengo 26 años, soy de San Justo, La Matanza, siempre me gusto la tecnología por ese motivo comence a interesarme en la programación, ya que mediante ella se pueden solucionar muchas problematicas de cualquier ámbito de la vida desde lo más simple hasta lo más complejo. Me gusta mucho trabajar en equipo y siempre afrontar nuevos desafios. Este proyecto es uno de ellos, ya que presenta diferentes desafios que nos obligan a seguir aprendiendo y esforzandonos para asi poder crecer individualmente pero siempre lo más importante como equipo.
 
 
 ### Listado de 5 páginas referentes:
