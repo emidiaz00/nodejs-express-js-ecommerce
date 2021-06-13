@@ -41,6 +41,18 @@ compañeros por ponerle tantas ganas a este proyecto y tratar de hacer de hacer 
 
 Soy Matias Autalan, tengo 26 años, soy de San Justo, La Matanza, siempre me gusto la tecnología por ese motivo comence a interesarme en la programación, ya que mediante ella se pueden solucionar muchas problematicas de cualquier ámbito de la vida desde lo más simple hasta lo más complejo. Me gusta mucho trabajar en equipo y siempre afrontar nuevos desafios. Este proyecto es uno de ellos, ya que presenta diferentes desafios que nos obligan a seguir aprendiendo y esforzandonos para asi poder crecer individualmente pero siempre lo más importante como equipo.
 
+Me presento me llamo Jonathan 
+Tengo 29 años, Soy de vicente lopez, Buenos aires
+Me gusta mucho todo lo relacionado a la computadora , sea armado y reparacion de pc, jugar y ahora la programacion.
+Empece a investigar un poco acerca del tema y encontre muchos programadores en la red social Twitter
+los cuales empece a leer sus articulos, luego vi la posibilidad de anotarme en la fundacion formar para capacitarme y tener 
+clases de manera virtual pero con un feedback , en el tiempo de la espera por la confirmacion de la vacante empece a estudiar
+con cursos en youtube y leer muchos articulos relacionados a los lenguajes de programacion en general, investigando un poco 
+llegue a la conclusion que los lenguajes por los cual la mayoria recomendaban arrancar eran python y javascript , por lo que me anote 
+en polotic a estudiar python , hasta que me confirmaron la vacante en la fundacion formar y preferi dedicar el 100% de mi tiempo de estudio a ello,
+ya que tenia un feedback de los profesores y me gustaba mucho la idea de poder intercambiar opiniones con mis compañeros y profesores.
+A futuro mi idea una vez finalizado el curso espero incorporarme en el mercado laboral desarrollando paginas webs, asi tambien 
+me gustaria seguir aprendiendo ingles ya que es muy basico mi conocimiento con este idioma y se que me va a servir a futuro. 
 
 ### Listado de 5 páginas referentes:
 
