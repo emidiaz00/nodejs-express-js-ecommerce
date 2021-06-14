@@ -4,12 +4,11 @@ Un e-commerce sobre js, node para aprender a trabajar en un proyecto con múltip
 
  ### El e-commerce va a estar dividido en los siguiente módulos:
 
-Desarrollamos este ecommerce debido a la actualidad de la pandemia, la tienda digital comercializamos productos
-para que la gente pueda acceder a comprar productos con mayor agilidad y accesibilidad, este proyecto está pensado
+Desarrollamos este ecommerce debido a la actualidad de la pandemia, la tienda digital comercializamos productos de tecnologia
+para que la gente pueda acceder a comprar con mayor agilidad y accesibilidad, este proyecto está pensado
 para poder abastecer la demanda que la virtualidad a alcanzado este ultimo año, nos capacitamos constantemente
 para lograr una mayor productividad en nuestro desarrollo de software agregando nuevas funcionalidades 
-que el mercado requiera, nuestro cliente noto una baja muy fuerte en sus ventas debido a que la gente no pueda acercarse de forma presencial
-por esto mismo , le acercamos una solucion informatica ,la cual consiste en desarrollar un ecommerce en el cual el pueda
+que el mercado requiera, nuestro cliente noto una baja muy fuerte en sus ventas debido a que la gente no pueda acercarse de forma presencial por esto mismo , le acercamos una solucion informatica ,la cual consiste en desarrollar un ecommerce en el cual el pueda
 emplear todas sus funciones de la misma manera que lo hacia de forma presencial.
 
 Store: incluye las funcionalidades de buscar productos, agregar y eliminar productos de la canasta y realizar pedidos.
@@ -64,9 +63,9 @@ https://www.razer.com/
 
 ### Wireframe
 
-Vistas desktop, mobile, y tablet.
-Home
-Detalle de producto
-Carrito de compras
-Formulario de registro
-Formulario de carga de producto
+- Vistas desktop, mobile, y tablet.
+- Home
+- Detalle de producto
+- Carrito de compras
+- Formulario de registro
+- Formulario de carga de producto
