@@ -4,16 +4,10 @@ Un e-commerce sobre js, node para aprender a trabajar en un proyecto con múltip
 
  ### El e-commerce va a estar dividido en los siguiente módulos:
 
-Desarrollamos este ecommerce debido a la actualidad de la pandemia, la tienda digital comercializamos productos de tecnologia
-para que la gente pueda acceder a comprar con mayor agilidad y accesibilidad, este proyecto está pensado
-para poder abastecer la demanda que la virtualidad a alcanzado este ultimo año, nos capacitamos constantemente
-para lograr una mayor productividad en nuestro desarrollo de software agregando nuevas funcionalidades 
-que el mercado requiera, nuestro cliente noto una baja muy fuerte en sus ventas debido a que la gente no pueda acercarse de forma presencial por esto mismo , le acercamos una solucion informatica ,la cual consiste en desarrollar un ecommerce en el cual el pueda
-emplear todas sus funciones de la misma manera que lo hacia de forma presencial.
-
+Somos un grupo de desarrolladores web que brindamos soluciones informaticas a personas que requieran nuestros servicios, en este trabajo el cliente se nos acerco con una problematica debido a una situacion mundial  que estamos atravesando , nos informa que debido al no poder abrir su negocio al publico se ve afectado en sus ventas de hardware , con nuestro equipo aceptamos el trabajo y analizamos su situacion , resolvimos que la mejor opcion era desarrollar un ecommerce con las siguientes caracteristicas y funcionalidades:
 Store: incluye las funcionalidades de buscar productos, agregar y eliminar productos de la canasta y realizar pedidos.
 Admin: administrar productos y pedidos.
-API: permite a otras aplicaciones integrarse para buscar productos, administrar la canasta y hacer seguimiento de pedidos.
+De esta manera lograria el cliente podria operar a puertas cerradas ofreciendole al publico la opcion de compra online, para que la experiencia del cliente sea rapida y sencilla.
 
 Usamos trello para dividrnos entre los desarrolladores cada tarea que le corresponde a cada uno.
 
@@ -74,4 +68,4 @@ https://www.razer.com/<br>
 - Detalle de producto
 - Carrito de compras
 - Formulario de registro
-- Formulario de carga de producto
+
