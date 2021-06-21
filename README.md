@@ -61,7 +61,7 @@ https://www.goodgame.ar/<br>
 https://compragamer.com/<br>
 <p>De esta siguiente pagina nos gusto mucho el tema de las marcas y la idea de armar tu pc con componentes que ofrecemos en nuestra pagina</p><br>
 https://www.fullh4rd.com.ar/<br>
-<p>de la siguiente pagina nos gusto la parte de productos destacados por la cual decidimos incorporarlo en nuestro modelo </p><br>
+<p>de la siguiente pagina nos gusto la parte de productos destacados por la cual decidimos incorporarlo en nuestro modelo y tambien donde muestra categorias con las imagenes en el home </p><br>
 https://www.gezatek.com.ar/<br>
 <p>De gezatek  sacamos las vistas del home la parte de pc de entrada , baja, media y  alta</p><br>
 https://www.razer.com/<br>
