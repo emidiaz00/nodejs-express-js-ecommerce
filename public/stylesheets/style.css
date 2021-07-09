@@ -1,8 +1,4 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #00B7FF;
-}
+@import url(footer.css);
+@import url(login.css);
+@import url(header.css);
+@import url(main.css);
