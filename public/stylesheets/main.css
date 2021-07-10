@@ -1,0 +1,153 @@
+* {box-sizing:border-box}
+
+/* mobile */
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+.Containers img {
+    width: 100%;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 27px;
+  color: chartreuse;
+  background-color: rgba(0,0,0,0.8);
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+/* main-product */
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: hsla(0, 0%, 50%, 0.116);
+  }
+  section article .img-product-main img {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 1px;
+  }
+  section article .img-product-main p {
+    width: 300px;
+    padding-left: 10px;
+    margin: 0 auto;
+    background-color: #5439f0;
+    color: #fff;
+    border-bottom: 4px solid chartreuse;
+    border-radius: 3px;
+  }
+  .pc-recommended {
+    font-size: 12px;
+    margin-top: -26px;
+    display: flex;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0.767);
+    color: #fff;
+    text-transform: uppercase;
+    border-top: 4px solid chartreuse;
+    box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
+  }
+  .product-highlights {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0.767);
+    color: #fff;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-top: 4px solid chartreuse;
+    box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
+  }
+
+
+/* tablet */
+@media (min-width: 576px) {
+     .Containers img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        /* main product */
+        section {
+            flex-wrap: wrap;
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+          }
+          section article .img-product-main img {
+            padding-top: 20px;
+          }
+          header .navbar .container .logo img {
+            height: 100px;
+            width: 100px;
+          }
+}
+
+/* desktop */
+@media (min-width: 1120px) {
+    .Containers img {
+           object-fit: cover;
+       }
+       /* main-products grid */
+       section {
+        
+        
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+      }
+}
