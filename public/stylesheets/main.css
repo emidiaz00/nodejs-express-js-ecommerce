@@ -1,11 +1,26 @@
 * {box-sizing:border-box}
 
+
+body {
+  background-color: #08051d;
+}
 /* mobile */
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
   position: relative;
   margin: auto;
+}
+section article .img-product-main p {
+  text-align: center;
+}
+section article .img-product-main img {
+  border-radius: 15px;
+}
+section article .img-product-main .parrafo-products{
+  color: purple;
+  font-weight: bold;
+  background-color: #fff;
 }
 
 /* Make the images invisible by default */
@@ -75,21 +90,44 @@ section {
     width: 100%;
     background-color: hsla(0, 0%, 50%, 0.116);
   }
+  section article .img-product-main {
+    margin: 0 auto;
+  }
   section article .img-product-main img {
-    width: 60%;
+    width: 70%;
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     margin-top: 50px;
     padding-top: 1px;
   }
+  
   section article .img-product-main p {
     width: 300px;
     padding-left: 10px;
     margin: 0 auto;
-    background-color: #5439f0;
-    color: #fff;
+    background-color: #fff;
+    color: purple;
+    padding: 15px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
     border-bottom: 4px solid chartreuse;
     border-radius: 3px;
+  }
+  section article .img-product-main h3 {
+    display: flex;
+    justify-content: center;
+    background-color: #7200ff;
+    color: #fff;
+    width: 140px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px;
   }
   .pc-recommended {
     font-size: 12px;
@@ -101,6 +139,18 @@ section {
     text-transform: uppercase;
     border-top: 4px solid chartreuse;
     box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
+  }
+  .productos-recomendados {
+    font-size: 12px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: hsla(0, 0%, 0%, 0.767);
+    color: #fff;
+    text-transform: uppercase;
+    border-top: 4px solid chartreuse;
+    box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
+    margin-top: 100px;
   }
   .product-highlights {
     font-size: 12px;
@@ -114,9 +164,82 @@ section {
     box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
   }
 
+/* carrousel products main */
+#carrusel {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow:hidden;
+  height:203px;
+  position:relative;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#carrusel .left-arrow {
+  position:absolute;
+  left:10px;
+  z-index:1;
+  top:50%;
+  margin-top:-9px;
+}
+
+#carrusel .right-arrow {
+  position:absolute;
+  right:10px;
+  z-index:1;
+  top:50%;
+  margin-top:-9px;
+}
+
+.carrusel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position:absolute;
+  z-index:0;
+}
+
+.carrusel>div {
+  float: left;
+  height: 203px;
+  margin-right: 5px;
+  width: 100%;
+  text-align:center;
+}
+
+.carrusel img {
+  margin-top: 30px;
+  cursor:pointer;
+}
+
+.product {
+  margin: 0 auto;
+  align-content: center;
+  background-color: #fff;
+  border: purple 1px solid;
+  border-radius: 5px;
+}
+.product:hover {
+  border: 4px solid hsl(90, 100%, 50%);
+  
+
+}
+.img-product-links {
+  display: none;
+}
 
 /* tablet */
 @media (min-width: 576px) {
+  #carrusel {
+    display: flex;
+   }
+     main {
+     width: 90%;
+     margin: 0 auto;
+     background-color: hsl(0, 5%, 92%);
+     }
+     /* container img slider */
      .Containers img {
             width: 100%;
             height: 400px;
@@ -131,15 +254,41 @@ section {
           }
           section article .img-product-main img {
             padding-top: 20px;
+            width: 180px;
+            
+          }
+          section article .img-product-main img:hover {
+            border: 5px solid chartreuse;
+            border-radius: 10px;
           }
           header .navbar .container .logo img {
             height: 100px;
             width: 100px;
           }
+          section article .img-product-main p {
+            text-align: center;
+            padding: 10px;
+            background-color: hsla(240, 61%, 16%, 0.575);
+            color: #fff;
+            font-size: 14px;
+          }
+          
+          /* img product icon violet */
+          
+          
+          
+         
 }
 
 /* desktop */
 @media (min-width: 1120px) {
+  main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: hsl(0, 5%, 92%);
+    border-left: 1px solid chartreuse;
+    border-right: 1px solid chartreuse;
+  }
     .Containers img {
            object-fit: cover;
        }

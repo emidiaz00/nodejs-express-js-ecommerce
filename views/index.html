@@ -13,6 +13,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
     <script
     src="https://kit.fontawesome.com/b1d9e52131.js"
     crossorigin="anonymous"
@@ -23,7 +24,8 @@
     href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
     rel="stylesheet"
     />
-    
+    <!-- jquery carousel main product -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/b1d9e52131.js" crossorigin="anonymous"></script>
     <!-- styles -->
@@ -35,6 +37,7 @@
     <header>
       <nav class="navbar">
         <div class="container">
+          <!-- menu hamburguer -->
           <div class="menu-hamburguer">
             <div id="mySidebar" class="sidebar">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -43,33 +46,33 @@
               <a href="#">Productos</a>
               <a href="#">Contact</a>
             </div>
-            
+            <!-- toggle nav -->
             <div id="main">
               <button class="openbtn" onclick="openNav()">&#9776;</button>
-              
             </div>
           </div>
+          <!-- logo navbar -->
           <div class="logo">
             <img src="images/images-home/EXTREME TECH (1).png" alt="" />
           </div>
+          <!-- search -->
           <div class="search-container">
             <input type="search" name="" id="" />
             <i class="fas fa-search"></i>
           </div>
+          <!-- login and cart -->
           <div class="login-cart">
             <a href="#"><i class="fas fa-shopping-cart"></i></a>
             <button name="button">Login</button>
-            
           </div>
-          
         </div>
+        <!-- links -->
         <ul>
-          <li><a href="">Ofertas</a></li>
-          <li><a href="">Notebooks</a></li>
-          <li><a href="">Productos</a></li>
-          <li><a href="">Nosotros</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Notebooks</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Nosotros</a></li>
         </ul>
-        
       </nav>
     </header>
     <main>
@@ -100,43 +103,117 @@
       </div>
       <br>
     </div> 
-    
+    <!-- pc recommended -->
     <div class="pc-recommended">
       <h2>Pc Recomendadas</h2>
     </div>
+    <!-- products and images -->
     <section>
       <article>
         <div class="img-product-main">
           <img class="img-product-main" src="/images/main-product-1.jpg" alt="">
-          <p>Intel core i5 9660k 16gb ram 1660 SUPER</p>
+          <p>Amd Ryzen 5 3400g<br> 16gb ram<br> Ssd 320gb</p>
+          <h3>Ver Producto</h3>
         </div>
       </article>
       <article>
         <div class="img-product-main">
           <img src="/images/main-product-1.jpg" alt="" >
-          <p>Intel core i5 9660k 16gb ram 1660 SUPER</p>
+          <p>Amd Ryzen 5 3600<br> 16gb ram<br> 1660 SUPER</p>
+          <h3>Ver Producto</h3>
         </div>
       </article>
       <article>
         <div class="img-product-main">
           <img src="/images/main-product-1.jpg" alt="" >
-          <p>Intel core i5 9660k 16gb ram 1660 SUPER</p>
+          <p>Intel Core i5 9660k<br> 16gb ram<br>1650 SUPER</p>
+          <h3>Ver Producto</h3>
         </div>
       </article>
       <article>
         <div class="img-product-main">
           <img src="/images/main-product-1.jpg" alt="" >
-          <p>Intel core i5 9660k 16gb ram 1660 SUPER</p>
+          <p>Amd Ryzen 3200g <br>
+          16gb ram<br>Ssd 240gb</p>
+          <h3>Ver Producto</h3>
         </div>
       </article>
     </section>
-    <div class="product-highlights">
-      <h2>Productos destacados</h2>
+    <!-- img icons main -->
+    <section>
+      <article>
+        <div class="img-product-main">
+          <img class="img-product-main" src="/images/homeauriculares.svg" alt="">
+          <p class="parrafo-products">AURICULARES</p>
+        </div>
+      </article>
+      <article>
+        <div class="img-product-main">
+          <img src="/images/homemonitor.svg" alt="" >
+          <p class="parrafo-products">MONITORES</p>
+        </div>
+      </article>
+      <article>
+        <div class="img-product-main">
+          <img src="/images/homenotebook.svg" alt="" >
+          <p class="parrafo-products">NOTEBOOKS</p>
+        </div>
+      </article>
+      <article>
+        <div class="img-product-main">
+          <img src="/images/homejoystick.svg" alt="" >
+          <p class="parrafo-products">JOYSTICK</p>
+        </div>
+      </article>
+    </section>
+      
+    
+    <!-- carrousel products -->
+    <div class="productos-recomendados">
+      <h2>Productos recomendados</h2>
     </div>
-  </main>
+    <div id="carrusel">
+      <a href="#" class="left-arrow"><i class="fas fa-arrow-left"></i></a>
+      <a href="#" class="right-arrow"><i class="fas fa-arrow-right"></i></a>
+      <div class="carrusel">
+          <div class="product" id="product_0">
+              <img src="/images/monitor1.png" />
+              <h5>Lorem ipsum 1</h5>
+              <p>165.00 €</p>
+          </div>
+          <div class="product" id="product_1">
+              <img src="/images/1.jpg" />
+              <h5>Lorem ipsum 2</h5>
+              <p>100.00 €</p>
+          </div>
+          <div class="product" id="product_1">
+            <img src="/images/1.jpg" />
+            <h5>Lorem ipsum 2</h5>
+            <p>100.00 €</p>
+        </div>
+          <div class="product" id="product_3">
+              <img src="/images/3.jpg" />
+              <h5>Lorem ipsum 4</h5>
+              <p>75.00 €</p>
+          </div>
+          <div class="product" id="product_4">
+              <img src="/images/4.jpg" />
+              <h5>Lorem ipsum 5</h5>
+              <p>65.00 €</p>
+          </div>
+          <div class="product" id="product_5">
+              <img src="/images/slider-photo1.jpg"/>
+              <h5>Lorem ipsum 6</h5>
+              <p>40.00 €</p>
+          </div>
+      </div>
+  </div>
+    </main>
 </script>  
+<!-- carrousel-products-main -->
+<script src="javascript/carrousel-products-main.js"></script>
+<!-- app.js -->
 <script src="javascript/app.js"></script>
-
 </body>
 </html>
 
