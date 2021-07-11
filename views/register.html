@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
     <!-- Css Linked -->
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/style.css" />
     <title>Register</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main>
+      <!-- Title -->
+      <div class="titleForm">
+        <h3>FORMULARIO DE REGISTRO</h3>
+        <p>Completá los siguientes datos para registrarse en nuestro sitio.</p>
+      </div>
+      <!-- Title -->
+
+      <section class="contentForm">
+        <!-- Image Logo -->
+        <div class="logoForm">
+          <img src="./img/logoproyecto 1.png" alt="logo extreme-tech" />
+        </div>
+        <!-- Image Logo -->
+
+        <!-- Form -->
+        <div class="dataForm">
+          <form class="containerForm" action="">
+            <div>
+              <legend>Datos de cuenta</legend>
+              <input type="email" placeholder="Email" name="email" />
+              <input
+                type="password"
+                placeholder="Contraseña"
+                name="contraseña"
+              />
+              <input
+                type="password"
+                placeholder="Confirmar contraseña"
+                name="repetir contraseña"
+              />
+            </div>
+            <hr />
+            <div>
+              <legend>Datos Personales</legend>
+              <input type="text" placeholder="Nombre" name="nombre" />
+              <input type="text" placeholder="Apellido" name="apellido" />
+              <input type="tel" placeholder="Telefono" name="telefono" />
+              <input type="text" placeholder="Direccion" name="direccion" />
+              <input type="text" placeholder="Ciudad" name="ciudad" />
+              <input
+                type="text"
+                placeholder="Codigo postal"
+                name="codigo postal"
+              />
+            </div>
+            <div class="containerBtn">
+              <button class="buttonForm" type="submit">Enviar datos</button>
+            </div>
+          </form>
+        </div>
+        <!-- Form -->
+      </section>
+    </main>
+  </body>
 </html>

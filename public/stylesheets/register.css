@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  .titleForm {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .contentForm {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+  }
+  
+  .contentForm .logoForm {
+    display: none;
+  }
+  
+  .contentForm .logoForm img {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 18%;
+    padding: 3px 25px;
+  }
+  
+  .contentForm .dataForm {
+    padding: 30px 25px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .contentForm .dataForm legend{
+    padding-top: 10px;
+  }
+  
+  .contentForm .dataForm input {
+    background-color: rgb(204, 197, 197);
+    display: block;
+    border: 0px;
+    box-sizing: border-box;
+    margin: 12px 0;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+  }
+  
+  .contentForm .dataForm .buttonForm {
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  .contentForm .dataForm .buttonForm:hover {
+    color: chartreuse;
+    background-color: black;
+    border: solid 4px chartreuse;
+  }
+
+
+  /*Media Queries*/
+  
+  @media (min-width: 576px) {
+    /*Tablet*/
+    .contentForm {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+      align-items: center;
+    }
+  
+    .contentForm .dataForm {
+      width: 100%;
+    }
+  
+    .contentForm .logoForm {
+      margin-top: 5px;
+      display: block;
+      width: 50%;
+      height: 45%;
+    }
+  
+    .containerForm {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row wrap;
+    }
+  
+    .containerForm div{
+      width: 49%;
+      box-sizing: border-box;
+      padding: 0 5px;
+    }
+  
+    .containerBtn {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /*Desktop*/
+    .contentForm {
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+      justify-content: center;
+    }
+  
+    .containerForm {
+      display: flex;
+      justify-content: space-evenly;
+      flex-flow: column wrap;
+    }
+  
+    .containerForm div {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 5px;
+  }
+  
+    .contentForm .logoForm {
+      width: 100%
+    }
+  }
+ /*main*/
