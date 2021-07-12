@@ -90,21 +90,21 @@ section article .img-product-main .parrafo-products {
 
 /* main-product */
 
-section {
+.main-content section {
   display: flex;
   flex-wrap: wrap;
 }
-section article {
+.main-content section article {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
   background-color: hsla(0, 0%, 50%, 0.116);
 }
-section article .img-product-main {
+.main-content section article .img-product-main {
   margin: 0 auto;
 }
-section article .img-product-main img {
+.main-content section article .img-product-main img {
   width: 70%;
   display: flex;
   justify-content: center;
@@ -113,7 +113,7 @@ section article .img-product-main img {
   padding-top: 1px;
 }
 
-section article .img-product-main p {
+.main-content section article .img-product-main p {
   width: 300px;
   padding-left: 10px;
   margin: 0 auto;
@@ -126,7 +126,7 @@ section article .img-product-main p {
   border-bottom: 4px solid chartreuse;
   border-radius: 3px;
 }
-section article .img-product-main h3 {
+.main-content section article .img-product-main h3 {
   display: flex;
   justify-content: center;
   background-color: #7200ff;
