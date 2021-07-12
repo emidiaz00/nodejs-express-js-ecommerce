@@ -12,13 +12,13 @@ body {
   position: relative;
   margin: auto;
 }
-section article .img-product-main p {
+.main-content section article .img-product-main p {
   text-align: center;
 }
-section article .img-product-main img {
+.main-content section article .img-product-main img {
   border-radius: 15px;
 }
-section article .img-product-main .parrafo-products {
+.main-content section article .img-product-main .parrafo-products {
   color: purple;
   font-weight: bold;
   background-color: #fff;
