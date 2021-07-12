@@ -1,20 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    rel="stylesheet" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <!-- Css Linked -->
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <title>ProductCart</title>
-</head>
-<body>
-    
-</body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/stylesheets/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="productCart">
+        <input type="checkbox" id="btn-modalCart" />
+        <label for="btn-modalCart" class="lbl-modalCart"><i class="fas fa-shopping-cart"></i></label>
+
+        <div class="modalCart">
+        <div class="containerCart">
+            <h2 class="titleCart">Carrito de Compras</h2>
+            <label for="btn-modalCart"><i class="fas fa-times cruz"></i></label>
+
+            <div class="containerProduct">
+                <h4>Productos</h4>
+                <div>
+                <img src="" alt="una imagen" />
+                <div>
+                    <p>Nombre del Producto</p>
+                    <input type="number" />
+                    <p>$ Precio</p>
+                    <i class="fas fa-trash-alt"></i>
+                </div>
+                <div>
+                    <p>Subtotal:</p>
+                    <p>$ Precio</p>
+                </div>
+                </div>
+            </div>
+        
+            <div>
+                <p>Total:</p>
+                <p>$ Precio</p>
+                <a href="#">Ver más productos</a>
+                <button type="submit">Iniciar compra</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  </body>
 </html>
