@@ -259,11 +259,11 @@ section article .img-product-main .parrafo-products {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  section article .img-product-main img {
+  .main-content section article .img-product-main img {
     padding-top: 20px;
     width: 180px;
   }
-  section article .img-product-main img:hover {
+  .main-content section article .img-product-main img:hover {
     border: 5px solid chartreuse;
     border-radius: 10px;
   }
@@ -271,7 +271,7 @@ section article .img-product-main .parrafo-products {
     height: 100px;
     width: 100px;
   }
-  section article .img-product-main p {
+  .main-content section article .img-product-main p {
     text-align: center;
     padding: 10px;
     background-color: hsla(240, 61%, 16%, 0.575);
