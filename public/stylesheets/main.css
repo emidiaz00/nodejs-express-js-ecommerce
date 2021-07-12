@@ -243,7 +243,7 @@ section article .img-product-main h3 {
   #carrusel {
     display: flex;
   }
-  main {
+  .main-content {
     width: 90%;
     margin: 0 auto;
     background-color: hsl(0, 5%, 92%);
@@ -255,9 +255,7 @@ section article .img-product-main h3 {
     object-fit: cover;
   }
   /* main product */
-  section {
-    flex-wrap: wrap;
-    width: 100%;
+  .main-content section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -286,7 +284,7 @@ section article .img-product-main h3 {
 
 /* desktop */
 @media (min-width: 1120px) {
-  main {
+  .main-content {
     width: 90%;
     margin: 0 auto;
     background-color: hsl(0, 5%, 92%);
@@ -295,7 +293,7 @@ section article .img-product-main h3 {
     object-fit: cover;
   }
   /* main-products grid */
-  section {
+  .main-content section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
