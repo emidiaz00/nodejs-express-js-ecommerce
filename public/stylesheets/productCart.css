@@ -1,88 +1,197 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /*modal */ 
-  
-  .modalCart {
-      width: 100%;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-  }
-  
-  
-  .modalCart {
-      position: fixed;
-      top: 0;
-      right: 0;
-      transition: all 500ms ease;
-      opacity: 0;
-      visibility: hidden;
-  }
-  
-  #btn-modalCart:checked ~ .modalCart {
-      opacity: 1;
-      visibility: visible;
-  }
-  
-  #btn-modalCart:checked ~ .modalCart {
-      opacity: 1;
-      visibility: visible;
-  }
-  
-  .containerCart {
-      height: 85vh;
-      background-color: white;
-      transition: all 500ms ease;
-      position: relative;
-      transform: translateX(130%);
-  }
-  
-  #btn-modalCart:checked ~ .modalCart .containerCart {
-      transform: translateX(0%);
-  }
-  
-  .containerCart label {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      background-color: white;
-      font-size: 15px;
-      height: 14px;
-      cursor: pointer;
-      caret-color: transparent;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .containerCart label .cruz {
-      font-size: 15px;
-  }
-  
-  #btn-modalCart {
-      display: none;
-  }
-  
-  .lbl-modalCart {
-      background-color: black;
-      color: chartreuse;
-      padding: 10px;
-      text-align: center;
-      cursor: pointer;
-      caret-color: transparent;
-  }
-  
-  .lbl-modalCart i {
-      font-size: 20px;
-      padding-top: 5px;
-  }
-  
-  /*modal*/
-  
-  .containerCart .titleCart {
-      padding: 15px;
-      background-color: black;
-      color: white;
-      border-bottom: solid 5px chartreuse;
-  }
+/*modal */
+
+.modalCart {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalCart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#btn-modalCart:checked ~ .modalCart {
+  opacity: 1;
+  visibility: visible;
+}
+
+#btn-modalCart:checked ~ .modalCart {
+  opacity: 1;
+  visibility: visible;
+}
+
+.containerCart {
+  background-color: white;
+  transition: all 500ms ease;
+  position: relative;
+  transform: translateX(130%);
+}
+
+#btn-modalCart:checked ~ .modalCart .containerCart {
+  transform: translateX(0%);
+}
+
+.containerCart label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: white;
+  height: 19px;
+  width: 19px;
+  cursor: pointer;
+  caret-color: transparent;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.containerCart label .cruz {
+  font-size: 20px;
+}
+
+#btn-modalCart {
+  display: none;
+}
+
+.lbl-modalCart {
+  background-color: black;
+  color: chartreuse;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+.lbl-modalCart i {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+/*modal*/
+
+.containerCart .titleCart {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-bottom: solid 5px chartreuse;
+}
+
+.containerCart .containerProduct h4 {
+  width: 100%;
+  padding: 7px;
+  color: chartreuse;
+}
+
+.containerCart .containerProduct .productCardCart {
+  margin: 3px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid 1px gray;
+  height: 80px;
+}
+
+.containerCart .containerProduct .productCardCart img {
+  width: 75px;
+}
+
+.containerCart .containerProduct .productCardCart .description {
+  width: 45%;
+  padding: 10px 5px;
+}
+
+.containerCart .containerProduct .productCardCart .description p {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.containerCart .containerProduct .productCardCart .description input {
+  width: 25px;
+  margin: 10px;
+}
+
+.containerCart .containerProduct .productCardCart .price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.containerCart .containerProduct .productCardCart .price i {
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  font-size: 16px;
+  color: chartreuse;
+}
+
+.containerCart .containerProduct .productCardCart .price p {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(99, 2, 138);
+}
+
+.containerCart .containerProduct .subtotal,
+.containerCart .containerProduct .total {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 21px 35px;
+}
+
+.containerCart .containerProduct .subtotal p span,
+.containerCart .containerProduct .total p span {
+  color: rgb(99, 2, 138);
+}
+
+.containerCart .containerProduct .total {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.containerCart .containerProduct .buy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerCart .containerProduct .buy a {
+  color: chartreuse;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.containerCart .containerProduct .buy a:hover {
+  color: black;
+}
+
+.containerCart .containerProduct .buy button {
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  background-color: chartreuse;
+  color: black;
+  border-radius: 10px;
+  border: 0;
+  margin: 10px 0 0 0;
+  caret-color: transparent;
+}
+
+.containerCart .containerProduct .buy button:hover {
+  color: chartreuse;
+  background-color: black;
+  border: solid 4px chartreuse;
+}
