@@ -18,6 +18,8 @@
   opacity: 0;
   visibility: hidden;
   box-shadow: 0 0 4px 4px chartreuse;
+  background-color: white;
+  padding-bottom: 20px;
 }
 
 #btn-modalCart:checked ~ .modalCart {
