@@ -11,15 +11,13 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.modalCart {
   position: fixed;
   top: 0;
   right: 0;
   transition: all 500ms ease;
   opacity: 0;
   visibility: hidden;
+  box-shadow: 0 0 4px 4px chartreuse;
 }
 
 #btn-modalCart:checked ~ .modalCart {
@@ -117,8 +115,8 @@
 }
 
 .containerCart .containerProduct .productCardCart .description input {
-  width: 25px;
-  margin: 10px;
+  width: 30px;
+  text-align: center;
 }
 
 .containerCart .containerProduct .productCardCart .price {
@@ -176,6 +174,7 @@
 
 .containerCart .containerProduct .buy a:hover {
   color: black;
+  text-decoration: underline;
 }
 
 .containerCart .containerProduct .buy button {
@@ -194,4 +193,43 @@
   color: chartreuse;
   background-color: black;
   border: solid 4px chartreuse;
+}
+
+@media (min-width: 576px) {
+  /*Tablet*/
+  .modalCart {
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .containerCart .containerProduct .buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+}
+
+@media (min-width: 992px) {
+  /*desktop*/
+  .containerCart .containerProduct .subtotal,
+  .containerCart .containerProduct .total {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 21px 35px;
+    width: 80%;
+  }
+
+
+  .containerCart .containerProduct .buy {
+      width: 85%;
+  }
+
+
+  .containerCart .containerProduct .productCardCart {
+      width: 85%;
+  }
 }
