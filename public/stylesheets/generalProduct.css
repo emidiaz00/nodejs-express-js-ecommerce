@@ -1,0 +1,102 @@
+.img-article img {
+    width: 280px;
+    height: 250px;
+}
+
+.main-product {
+    display: flex;
+    /* background-image: url(/images/fondos-de-pantalla-gaming-1320x500.png); */
+    background-size: cover;
+    
+    
+}
+
+.cards-product {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.product-item {
+    width: 300px;
+    border: 2px solid black;
+    margin: 15px 0;
+    padding: 10px 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    
+}
+.list-product {
+    display: none;
+}
+
+.description-product {
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+.btn-product {
+    background-color: chartreuse;
+    border: none;
+    padding: 7px;
+    border-radius: 30px;
+    font-weight: bold;
+    transform: scale(1.1);
+    margin: 15px 0;
+}
+
+.btn-product:hover {
+    transform: scale(1);
+    
+    
+}
+
+@media (min-width: 576px){
+    .list-product{
+        display: block;
+        
+        margin-top: 15px;
+        padding-right: 15px;
+        text-align: center;
+        padding-left: 13px;
+        border: 2px solid #000000;
+        line-height: 30px;
+        position: sticky;
+        top: 0;
+        height: 420px;
+        margin-left: 20px;
+        
+    }
+
+    /* .list-product ul li a {
+        color: chartreuse;
+    } */
+
+
+
+    .product-item {
+        width: 200px;
+    }
+
+    .img-article img {
+        width: 180px;
+        height: 150px;
+    }
+
+    .cards-product {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 992px) {
+    .cards-product {
+        max-width: 992px;
+    }
+
+    .main-product {
+        justify-content: center;
+    }
+
+    .product-item {
+        width: 200px;
+    }
+}
