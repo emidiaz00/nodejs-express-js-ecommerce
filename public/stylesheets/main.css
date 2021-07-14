@@ -242,7 +242,9 @@ main .carrusel .product img {
   margin: 0 auto;
   background-color: #fff;
 }
-
+header .ul-links {
+  display: none;
+}
 /* tablet */
 @media (min-width: 576px) {
   #carrusel {
