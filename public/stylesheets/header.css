@@ -25,6 +25,9 @@
     display: flex;
     flex-direction: column;
   }
+  header .ul-links {
+    display: none;
+  }
   
   /* The sidebar links */
   .sidebar a {
