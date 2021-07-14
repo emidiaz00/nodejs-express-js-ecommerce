@@ -247,6 +247,9 @@ header .ul-links {
 }
 /* tablet */
 @media (min-width: 576px) {
+  header .ul-links {
+    display: none;
+  }
   #carrusel {
     display: flex;
   }
