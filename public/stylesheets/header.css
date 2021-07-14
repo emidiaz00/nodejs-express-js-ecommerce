@@ -92,7 +92,7 @@
     height: 100px;
     background-color: black;
   }
-  img {
+  header .logo img {
     width: 100px;
   }
   header .navbar .container {
