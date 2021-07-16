@@ -187,6 +187,10 @@
       top: 3px;
       cursor: pointer;
     }
+
+    #btn-width {
+      width: 45%;
+    }
   
   /* header tablet */
   
@@ -281,6 +285,10 @@
       min-height: 250px;
       max-height: 450px;
     }
+    
+    #btn-width {
+      width: 100%;
+    }
   }
   
   @media (min-width: 911px) {
@@ -335,6 +343,9 @@
       max-width: 600px;
       min-height: 350px;
       max-height: 90%;
+    }
+    #btn-width {
+      width: 100%;
     }
   }
   
