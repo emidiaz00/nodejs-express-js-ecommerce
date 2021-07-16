@@ -53,7 +53,84 @@
           </div>
           <!-- login and cart -->
           <div class="login-cart">
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <!-- Comienzo ProductCart -->
+            <div class="productCart">
+              <input type="checkbox" id="btn-modalCart" />
+              <label for="btn-modalCart" class="lbl-modalCart"
+                ><i class="fas fa-shopping-cart"></i
+              ></label>
+
+              <div class="modalCart">
+                <div class="containerCart">
+                  <h2 class="titleCart">Carrito de Compras</h2>
+                  <label for="btn-modalCart"><i class="fas fa-times cruz"></i></label>
+
+                  <div class="containerProduct">
+                    <h4>Productos</h4>
+                    <div class="productCardCart">
+                      <div class="image">
+                        <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"
+                        />
+                      </div>
+                      <div class="description">
+                        <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
+                        <input type="number" placeholder="0" max="5" min="0" maxlength="1" minlength="1"
+                        />
+                      </div>
+                      <div class="price">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <p>$ 9200</p>
+                      </div>
+                    </div>
+                    <div class="productCardCart">
+                      <div class="image">
+                        <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"
+                        />
+                      </div>
+                      <div class="description">
+                        <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
+                        <input type="number" placeholder="0" max="5" min="0" maxlength="1" minlength="1"
+                        />
+                      </div>
+                      <div class="price">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <p>$ 9200</p>
+                      </div>
+                    </div>
+                    <div class="productCardCart">
+                      <div class="image">
+                        <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"
+                        />
+                      </div>
+                      <div class="description">
+                        <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
+                        <input type="number" placeholder="0" max="5" min="0" maxlength="1" minlength="1"
+                        />
+                      </div>
+                      <div class="price">
+                        <i class="fas fa-trash-alt trash"></i>
+                        <p>$ 9200</p>
+                      </div>
+                    </div>
+                    <div class="subtotal">
+                      <p><span>Subtotal:</span></p>
+                      <p>$ 27.600</p>
+                    </div>
+                    <div class="total">
+                      <p><span>Total:</span></p>
+                      <p>$ 27.600</p>
+                    </div>
+                    <div class="buy">
+                      <a href="#"
+                        ><button class="moreProducts">Ver más productos</button></a
+                      >
+                      <button class="buttonBuy" type="submit">Iniciar compra</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Fin ProductCart -->
             <!-- Comienza ventana modal Login -->
             <div>
               <button onclick="openModal()" name="button">Login</button>
@@ -208,38 +285,96 @@
       <a href="#" class="right-arrow"><i class="fas fa-arrow-right"></i></a>
       <div class="carrusel">
           <div class="product" id="product_0">
+              
               <img src="/images/monitor1.png" />
-              <h5>Lorem ipsum 1</h5>
-              <p>165.00 €</p>
-          </div>
-          <div class="product" id="product_1">
+              <h5>Monitor Asus Tuf Gaming 144 Hz</h5>
+              <p class="price">$45.999</p>
+            </div>
+        <div class="product" id="product_1">
               <img src="/images/1.jpg" />
-              <h5>Lorem ipsum 2</h5>
-              <p>100.00 €</p>
+              <h5>Placa de video Nvidia MSI GTX 1660Ti 6GB</h5>
+              <p class="price">$86.999</p>
           </div>
           <div class="product" id="product_1">
             <img src="/images/1.jpg" />
-            <h5>Lorem ipsum 2</h5>
-            <p>100.00 €</p>
+            <h5>Placa de video Nvidia MSI GTX 1650 Super 4GB</h5>
+            <p class="price">$74.999</p>
         </div>
           <div class="product" id="product_3">
               <img src="/images/3.jpg" />
-              <h5>Lorem ipsum 4</h5>
-              <p>75.00 €</p>
+              <h5>Teclado gamer Redragon Kumara K552</h5>
+              <p class="price">$5.290</p>
           </div>
           <div class="product" id="product_4">
               <img src="/images/4.jpg" />
-              <h5>Lorem ipsum 5</h5>
-              <p>65.00 €</p>
+              <h5>Auriculares Gamer 7.1 Corsair Void Elite</h5>
+              <p class="price">$13.499</p>
           </div>
           <div class="product" id="product_5">
-              <img src="/images/slider-photo1.jpg"/>
-              <h5>Lorem ipsum 6</h5>
-              <p>40.00 €</p>
+              <img src="/images/aurishyperx2.png"/>
+              <h5>Auriculares gamer HyperX Cloud Alpha</h5>
+              <p class="price">$12.999</p>
           </div>
+          <div class="product" id="product_6">
+            <img src="/images/teclado-draconic.jpg"/>
+            <h5>Teclado Gamer Bluetooth Redragon Draconic K530</h5>
+            <p class="price">$5.999</p>
+        </div>
+        <div class="product" id="product_7">
+          <img src="/images/teclado-draconic.jpg"/>
+          <h5>Teclado Gamer Bluetooth Redragon Draconic K530</h5>
+          <p class="price">$5.999</p>
+      </div>
+      <div class="product" id="product_8">
+        <img src="/images/teclado-draconic.jpg"/>
+        <h5>Teclado Gamer Bluetooth Redragon Draconic K530</h5>
+        <p class="price">$5.999</p>
+    </div>
       </div>
   </div>
     </main>
+    <footer class="footer-home">
+      <!-- CATEGORY LIST -->
+      <ul class="categorys ul-style">
+          <h4 class="h4-footer">Categorias</h4>
+          <li class="li-footer"><a class="a-footer" href="#">Placa de video</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Procesadores</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Memorias</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Todas las categorias</a></li>
+      </ul>
+      <!-- BRAND LIST -->
+      <ul class="brand ul-style" >
+          <h4 class="h4-footer">Marcas</h4>
+          <li class="li-footer"><a class="a-footer" href="#">Intel</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Amd</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Aorus</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Asus</a></li>
+      </ul>
+      <!-- MOST WANTED LIST --> 
+      <ul class="wanted ul-style">
+          <h4 class="h4-footer">Lo mas buscado</h4>
+          <li class="li-footer"><a class="a-footer" href="#">Placas de video</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Procesadores Amd</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">Teclados</a></li>
+          <li class="li-footer"><a class="a-footer" href="#">RGB</a></li>
+      </ul>
+      <!-- HELP LIST -->
+      <ul class="help ul-style">
+          <h4 class="h4-footer">Ayuda</h4>
+          <li class="li-footer><a class="a-footer" href="mailto:aimeagustinagarces@gmail.com">compu@compu.com</a></li>
+          
+      </ul>
+      <!-- REDES -->
+      <ul class="networks ul-style">
+          <h4 class="h4-footer">Redes</h4>
+          <div class="networks-img">
+              <li class="li-footer"><a class="a-footer" href="https://www.instagram.com" target="_blank"><img alt="boton instagram" src="https://cdn.jsdelivr.net/gh/persano/bannersmaximus/instagram.svg" style="height:35px;width:45px;vertical-align:middle"></a></li>
+              <li class="li-footer"><a class="a-footer" href="https://api.whatsapp.com/send?phone=1111111111" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+              <li class="li-footer"><a class="a-footer" href="https://www.facebook.com" target="_blank"><img alt="boton facebook" src="https://cdn.jsdelivr.net/gh/persano/maximus/facebook1.svg" style="height:35px;width:45px;vertical-align:middle"></a></li>
+          </div>
+      </ul>
+  </footer>
+
 </script>  
 <!-- carrousel-products-main -->
 <script src="javascript/carrousel-products-main.js"></script>
