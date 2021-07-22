@@ -97,17 +97,27 @@
 }
 
 .full-screen-nav ul {
-    top: 169px;
+    top: 222px;
     position: relative;
-    background: black;
+    background: rgba(0, 0,0, .9);
     text-align: center;
     width: 100%;
     font-size: 16px;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-radius: 0px 0px 10px 10px;
+    /* border-radius: 0px 0px 10px 10px; */
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+    text-transform: uppercase;
+    
 }
-
+.full-screen-nav ul li {
+    line-height: 30px;
+    
+}
+.full-screen-nav ul li a {
+ color: chartreuse;
+}
 
 /* Backgroup position and animation */
 .backdrop {
