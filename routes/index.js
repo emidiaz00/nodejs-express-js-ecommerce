@@ -31,6 +31,10 @@ router.get('/products', function(req, res, next){
   res.sendFile(path.join(__dirname,'.././views/generalProduct.html'))
 })
 
+router.get('/finalizarCompra', function(req, res, next){
+  res.sendFile(path.join(__dirname,'.././views/finishBuying.html'))
+})
+
 
 
 module.exports = router;

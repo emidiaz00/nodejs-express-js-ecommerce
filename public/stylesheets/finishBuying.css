@@ -1,0 +1,156 @@
+.titleFinishBuy {
+  text-align: center;
+  padding: 10px;
+}
+
+.containerFinishBuy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.abstract {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+  padding: 0 7px;
+  border: solid 2px;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+}
+
+.abstract h3 {
+  width: 100%;
+}
+
+.abstract .image {
+  width: 25%;
+}
+
+.abstract .image img {
+  width: 100%;
+}
+
+.abstract .abstractProduct {
+  display: flex;
+}
+
+.abstract .description {
+  width: 75%;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-align: start;
+}
+
+.abstract .description p {
+  padding: 3px 0;
+  font-size: 13px;
+}
+
+.abstract .description .price {
+  color: rgb(99, 2, 138);
+}
+
+.abstract .description .amountProduct {
+  color: chartreuse;
+}
+
+.containerBuy {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.containerBuy .paymentMethods h3{
+  margin: 10px;
+}
+
+.containerBuy .paymentMethods div {
+    margin: 20px 0 ;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.containerBuy .paymentMethods label,
+.containerBuy .paymentData label {
+  font-weight: bold;
+}
+
+.containerBuy .paymentData {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.containerBuy .paymentData h3 {
+  margin: 10px 0;
+}
+
+.containerBuy .paymentData input {
+  padding: 5px 0;
+  margin: 10px 0;
+}
+
+.containerBuy .paymentData #numCard {
+  width: 95%;
+  max-width: 250px;
+}
+
+.containerBuy .paymentData #expirationDate {
+  width: 95%;
+  max-width: 220px;
+}
+
+.containerBuy .paymentData #securityCode {
+  width: 50px;
+}
+
+.containerBuy .payment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerBuy .payment h3 {
+  color: rgb(99, 2, 138);
+}
+
+.containerBuy .payment button {
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  background-color: chartreuse;
+  color: black;
+  border-radius: 10px;
+  border: 0;
+}
+
+.containerBuy .payment button:hover {
+  color: chartreuse;
+  background-color: black;
+  border: solid 4px chartreuse;
+}
+
+@media (min-width: 576px) {
+  .containerFinishBuy {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .abstract {
+    align-self: flex-start;
+    width: 45%;
+  }
+
+  .containerBuy {
+      width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+.containerBuy {
+    padding-left: 25px;
+}
+}
