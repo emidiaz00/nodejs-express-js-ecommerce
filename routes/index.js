@@ -35,6 +35,10 @@ router.get('/finalizarCompra', function(req, res, next){
   res.sendFile(path.join(__dirname,'.././views/finishBuying.html'))
 })
 
+router.get('/perfilUsuario', function(req, res, next){
+  res.sendFile(path.join(__dirname,'.././views/userProfile.html'))
+})
+
 
 
 module.exports = router;

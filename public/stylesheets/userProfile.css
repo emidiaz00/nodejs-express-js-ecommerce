@@ -1,0 +1,94 @@
+.containerUserProfile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 750px;
+    border: solid 3px rgb(99, 2, 138);
+    background-color: black;
+    color: white ;
+}
+
+.containerUserProfile h1 {
+    text-align: center;
+    color: chartreuse;
+}
+
+.containerUserProfile .imageProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerUserProfile .imageProfile .avatar { 
+    width: 150px;
+    height: 150px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    color: rgb(99, 2, 138);
+    font-weight: bold;
+}
+
+.containerUserProfile .imageProfile input {
+    width: 90%;
+    color: rgb(99, 2, 138);
+    border: solid 3px chartreuse;
+}
+
+.containerUserProfile .data {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.containerUserProfile .data div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerUserProfile .data h3 {
+    width: 100%;
+    color: chartreuse;
+}
+
+.containerUserProfile .data div p {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.containerUserProfile .data div p:nth-child(1) {
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(99, 2, 138);
+}
+
+.btnProfile { 
+    width: 120px;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background-color: chartreuse;
+    border: solid 2px rgb(134, 94, 150);
+    border-radius: 7px;
+    margin: 10px;
+}
+
+
+@media (min-width: 750px) {
+    .containerUserProfile {
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+}
+
+
+
+
