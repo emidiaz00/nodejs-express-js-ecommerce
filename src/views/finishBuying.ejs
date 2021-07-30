@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %>
+  <body>
+    <%- include('partials/header') %>
+    <h2 class="titleFinishBuy">Finalizar Compra</h2>
+    <div class="containerFinishBuy">
+      <section class="abstract">
+        <h3>Resumen compra</h3>
+        <div class="abstractProduct">
+          <div class="image">
+            <img
+              src="/images/hyperx/hx-pulsefire-dart-2.jpg"
+              alt="mouse hyperX"
+            />
+          </div>
+          <div class="description">
+            <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
+            <p class="price">$ 9200</p>
+            <p class="amountProduct">Cantidad: 2</p>
+          </div>
+        </div>
+        <div class="abstractProduct">
+          <div class="image">
+            <img
+              src="/images/hyperx/hx-pulsefire-dart-2.jpg"
+              alt="mouse hyperX"
+            />
+          </div>
+          <div class="description">
+            <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
+            <p class="price">$ 9200</p>
+            <p class="amountProduct">Cantidad: 1</p>
+          </div>
+        </div>
+        <div class="abstractProduct">
+          <div class="image">
+            <img
+              src="/images/hyperx/hx-pulsefire-dart-2.jpg"
+              alt="mouse hyperX"
+            />
+          </div>
+          <div class="description">
+            <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
+            <p class="price">$ 9200</p>
+            <p class="amountProduct">Cantidad: 3</p>
+          </div>
+        </div>
+      </section>
+
+      <form class="containerBuy">
+        <div class="paymentMethods">
+          <h3>Formas de pago</h3>
+          <div>
+            <p>
+                <input type="radio" name="typePayment" id="credito" checked />
+                <label for="credito">Credito</label>
+            </p>
+            <p>
+                <input type="radio" name="typePayment" id="debito" />
+                <label for="debito">Debito</label>
+            </p>
+            <p>
+                <input type="radio" name="typePayment" id="efectivo" />
+                <label for="efectivo">Efectivo</label>
+           </p>
+          </div>
+        </div>
+
+        <div class="paymentData">
+          <h3>Datos de pago</h3>
+          <p>
+            <label for="numCard">Numero de tarjeta</label>
+            <input type="text" name="numCard" id="numCard" />
+          </p>
+          <p>
+            <label for="expirationDate">Fecha de vencimiento</label>
+            <input type="month" name="expirationDate" id="expirationDate" max="2025-12"/>
+          </p>
+          <p>
+            <label for="securityCode">Codigo de seguridad</label>
+            <input type="number" name="securityCode" id="securityCode" min="0" />
+          </p>
+        </div>
+
+        <div class="payment">
+          <button type="submit">Pagar</button>
+          <h3>Importe: $55200</h3>
+        </div>
+      </form>
+    </div>
+    <%- include('partials/footer')  %> 
+  </body>
+</html>
