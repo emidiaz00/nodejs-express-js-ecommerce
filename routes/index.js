@@ -38,6 +38,9 @@ router.get('/finalizarCompra', function(req, res, next){
 router.get('/perfilUsuario', function(req, res, next){
   res.sendFile(path.join(__dirname,'.././views/userProfile.html'))
 })
+router.get('/myAccount', function(req, res, next){
+  res.sendFile(path.join(__dirname,'.././views/myAccount.html'))
+})
 
 
 
