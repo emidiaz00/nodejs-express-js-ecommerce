@@ -24,129 +24,18 @@
           <input type="search" name="" id="" />
           <i class="fas fa-search"></i>
         </div>
+        
         <!-- login and cart -->
         <div class="login-cart">
+
           <!-- Comienzo ProductCart -->
-          <div class="productCart">
-            <input type="checkbox" id="btn-modalCart" />
-            <label for="btn-modalCart" class="lbl-modalCart"
-              ><i class="fas fa-shopping-cart"></i
-            ></label>
-
-            <div class="modalCart">
-              <div class="containerCart">
-                <h2 class="titleCart">Carrito de Compras</h2>
-                <label for="btn-modalCart"><i class="fas fa-times cruz"></i></label>
-
-                <div class="containerProduct">
-                  <h4>Productos</h4>
-                  <div class="productCardCart">
-                    <div class="image">
-                      <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"
-                      />
-                    </div>
-                    <div class="description">
-                      <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
-                      <input type="number" placeholder="0" max="5" min="0" maxlength="1" minlength="1"
-                      />
-                    </div>
-                    <div class="price">
-                      <i class="fas fa-trash-alt trash"></i>
-                      <p>$ 9200</p>
-                    </div>
-                  </div>
-                  <div class="productCardCart">
-                    <div class="image">
-                      <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"
-                      />
-                    </div>
-                    <div class="description">
-                      <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
-                      <input type="number" placeholder="0" max="5" min="0" maxlength="1" minlength="1"
-                      />
-                    </div>
-                    <div class="price">
-                      <i class="fas fa-trash-alt trash"></i>
-                      <p>$ 9200</p>
-                    </div>
-                  </div>
-                  <div class="productCardCart">
-                    <div class="image">
-                      <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"
-                      />
-                    </div>
-                    <div class="description">
-                      <p class="nameProduct">Mouse HyperX Pulse Fire Dart</p>
-                      <input type="number" placeholder="0" max="5" min="0" maxlength="1" minlength="1"
-                      />
-                    </div>
-                    <div class="price">
-                      <i class="fas fa-trash-alt trash"></i>
-                      <p>$ 9200</p>
-                    </div>
-                  </div>
-                  <div class="subtotal">
-                    <p><span>Subtotal:</span></p>
-                    <p>$ 27.600</p>
-                  </div>
-                  <div class="total">
-                    <p><span>Total:</span></p>
-                    <p>$ 27.600</p>
-                  </div>
-                  <div class="buy">
-                    <a href="/products"
-                      ><button class="moreProducts">Ver más productos</button></a
-                    >
-                    <a href="/finalizarCompra"><button class="buttonBuy" type="submit">Comprar</button></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+              <%- include('./productCart') %> 
           <!-- Fin ProductCart -->
+
           <!-- Comienza ventana modal Login -->
-          <div>
-            <button onclick="openModal()" name="button">Login</button>
-          </div> 
-          <div class="modal" id="modalAdd">
-            <div class="modal-container">
-              <div class="close-modal" onclick="closeModal()">X</div>
-              <div>
-                <div class="section2-login">
-                  <h2 class="enter-register">Inicia sesion/Registrate</h2>
-                  <form action="" class="form-login">
-                      <p class="user">
-                      <label for="user"><i class="far fa-envelope"></i>
-      
-                      </label>
-                          <input class="inputs" type="text" name="user" id="user" placeholder="Usuario">
-                      </p>
-                      <p class="pass">
-                          <label for="password"><i class="fas fa-lock"></i></label>
-                          <input class="inputs" type="password" name="password" id="password" placeholder="Contraseña">
-                      </p>
-                      <p class="remember-password">
-                      <label for="remember">Recordar contraseña</label>
-                      <input type="checkbox" name="remember" id="remember">
-                  </p>
-                      <a class="a-login" href="#">Olvidaste tu contraseña?</a>
-                      <h3 class="enter"> O ingresa con:</h4>
-                      <div class="login-gmail">
-                      <a href="#"><div><img src="/images/google.png" alt=""></div><div class="btn-google"><h6>Google</h6></div></a>
-                  </div>
-                  </form>
-                  <div class="btn-login">
-                  <button class="btn-style" id="btn-width" type="submit">Ingresar</button>
-                  <button class="btn-style" id="btn-width" type="submit"><a href="/register">Registrarse</a></button>
-              </div>
-            </div>
-              </div>
-              
-            </div>
-          </div>
-          <script src="/javascript/modal.js"></script>
-        </div>
-      </div>
+              <%- include('./login') %> 
+          <!-- Fin ventana modal Login -->
+
       <!-- links -->
       <ul class="ul-links">
         <li><a href="#Ofertas">Ofertas</a></li>
