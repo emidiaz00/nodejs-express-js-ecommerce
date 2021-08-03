@@ -13,6 +13,7 @@ module.exports = {
         res.render('finishBuying', {
             
         })
-    }
+    },
+    
 
 }
