@@ -5,4 +5,11 @@
     font-family: "Roboto Mono", monospace;
     list-style: none;
     text-decoration: none;
+    
+}
+
+:root {
+    --colorPrimary: chartreuse;
+    --colorSecundary: black;
+    --colorTertiary: #63028A;
 }

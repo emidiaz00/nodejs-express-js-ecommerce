@@ -31,10 +31,18 @@ Retrospectiva Sprint 2 :
 *Seguir haciendo:
 
 - Trabajar en los detalles de la pagina.
+- Distribucion de tarea equitativa.
+- Compañerismo 
+- Codear juntos
+- Adelantando cosas respecto al sprint
+-Poniendo fechas limites anteriores a las entregas para luego tener tiempo de 
+corregir lo que sea necesario
+
 
 
 *Hacer más:
 
+-Leer el siguiente sprint y analizarlo antes de empezar.
 - Mejorar el diseño(Analizar la posibilidad de cambio de colores)
 - Trabajar la comunicacion
 
@@ -44,8 +52,12 @@ Retrospectiva Sprint 2 :
 
 *Empezar a hacer:
 
+-Establecer un horario para una reunión semanal.
+Panel de administrador para agregar/quitar y o modificar productos.
 - Hacer la vista sobre nosotros
+- Hacer mas reuniones
 
 *Dejar de hacer:
+
 
 

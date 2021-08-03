@@ -50,11 +50,11 @@
 }
 
 .abstract .description .price {
-  color: rgb(99, 2, 138);
+  color: var(--colorTertiary);
 }
 
 .abstract .description .amountProduct {
-  color: chartreuse;
+  color: var(--colorPrimary);
 }
 
 .containerBuy {
@@ -114,23 +114,23 @@
 }
 
 .containerBuy .payment h3 {
-  color: rgb(99, 2, 138);
+  color: var(--colorTertiary);
 }
 
 .containerBuy .payment button {
   width: 100px;
   height: 40px;
   font-weight: bold;
-  background-color: chartreuse;
+  background-color: var(--colorPrimary);
   color: black;
   border-radius: 10px;
   border: 0;
 }
 
 .containerBuy .payment button:hover {
-  color: chartreuse;
+  color: var(--colorPrimary);
   background-color: black;
-  border: solid 4px chartreuse;
+  border: solid 4px var(--colorPrimary);
 }
 
 @media (min-width: 576px) {
