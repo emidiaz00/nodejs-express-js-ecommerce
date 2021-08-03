@@ -7,4 +7,5 @@ router.get('/', controller.index)
 router.get('/register', controller.register)
 router.get('/shop', controller.finishBuy)
 
+
 module.exports = router;
