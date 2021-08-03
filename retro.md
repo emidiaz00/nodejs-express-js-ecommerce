@@ -25,3 +25,27 @@ Panel de administrador para agregar/quitar y o modificar productos.
 *Dejar de hacer:
 
 -Buscar funcionalidades nuevas para la pagina.
+
+Retrospectiva Sprint 2 :
+
+*Seguir haciendo:
+
+- Trabajar en los detalles de la pagina.
+
+
+*Hacer más:
+
+- Mejorar el diseño(Analizar la posibilidad de cambio de colores)
+- Trabajar la comunicacion
+
+
+*Hacer menos:
+
+
+*Empezar a hacer:
+
+- Hacer la vista sobre nosotros
+
+*Dejar de hacer:
+
+

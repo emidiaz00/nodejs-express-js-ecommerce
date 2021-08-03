@@ -1,0 +1,160 @@
+[{
+    "categorias": "micro",
+    "modelo": "i3 10100F 4.3GHz Turbo",
+    "marca": "INTEL",
+    "precio": 13780,
+    "descripcion": "es un procesador muy potente",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+    
+},
+{
+    "categorias": "micro",
+    "modelo": "i5 9600k 4.6GHz Turbo",
+    "marca": "INTEL",
+    "precio": 27000,
+    "descripcion": "es un procesador muy potente",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "micro",
+    "modelo": "i5 10600K 4.8GHz Turbo",
+    "marca": "INTEL",
+    "precio": 20000,
+    "descripcion": "es un procesador muy potente",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "micro",
+    "modelo": "Ryzen 7 3700x 4.4 GHz",
+    "marca": "AMD",
+    "precio": 42000,
+    "descripcion": "es un procesador muy potente",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "micro",
+    "modelo": "Ryzen 9 3950X 4.7GHz",
+    "marca": "AMD",
+    "precio": 104000,
+    "descripcion": "es un procesador muy potente",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "micro",
+    "modelo": "Ryzen 5 3500 4.1GHz Turbo",
+    "precio": 27000,
+    "descripcion": "es un procesador muy potente",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "mother",
+    "modelo": "Asus Prime H310M-R",
+    "precio": 6500,
+    "descripcion": "Motherboard ASUS",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "mother",
+    "modelo": "Asus prime B365M-A",
+    "precio": 6700,
+    "descripcion": "Motherboard ASUS",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "mother",
+    "modelo": "Gigabyte H310M-DS2",
+    "precio": 7200,
+    "descripcion": "Motherboard Gigabyte",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "mother",
+    "modelo": "Asrock H310CM-H",
+    "precio": 7400,
+    "descripcion": "Motherboard Asrock",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "placa de video",
+    "modelo": "Geforce RTX 3070 8gb",
+    "precio": 218000,
+    "descripcion": "Placa de video ensambladora Zotac",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "placa de video",
+    "modelo": "Geforce GT 710",
+    "precio": 8900,
+    "descripcion": "Placa de video ensambladora MSI",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "placa de video",
+    "modelo": "RX 570 8GB OC",
+    "precio": 95000,
+    "descripcion": "Placa de video ensambladora Asrock",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "placa de video",
+    "modelo": "RX 570 4GB ",
+    "precio": 68000,
+    "descripcion": "Placa de video ensambladora Asrock",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "memorias",
+    "modelo": "DDR4 4GB 2666MHz",
+    "precio": 3500,
+    "descripcion": "Memoria Ram Kingston",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "memorias",
+    "modelo": "DDR4 4GB 2600MHz",
+    "precio": 4000,
+    "descripcion": "Memoria Ram Corsair",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "teclados",
+    "modelo": "Mecanico ASUS TUF Gaming",
+    "precio": 11900,
+    "descripcion": "Teclado Mecanico Gamer",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "teclados",
+    "modelo": "Logitech Wireless K230",
+    "precio": 2140,
+    "descripcion": "Teclado logitech inalambrico",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+},
+{
+    "categorias": "teclados",
+    "modelo": "Logitech G213",
+    "precio": 6600,
+    "descripcion": "Teclado Logitech Gamer de membrana",
+    "image":"/images/main-product-1.jpg",
+    "discount": 5
+}
+
+]
