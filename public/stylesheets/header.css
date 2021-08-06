@@ -30,6 +30,7 @@ header .ul-links {
     line-height: 40px;
     justify-content: center;
     text-decoration: none;
+    text-transform: uppercase;
     background-image: linear-gradient(#6c0979, #6c0979);
     background-position: 0% 100%;
     background-repeat: no-repeat;
@@ -75,9 +76,7 @@ header .ul-links {
     background-color: black;
 }
 /* navbar */
-body {
-    font-family: "Roboto Mono", "sans serif";
-}
+
 header .navbar {
     height: 100px;
     background-color: black;
@@ -146,7 +145,7 @@ header .navbar .container .login-cart button {
     
 }
 .modal-container {
-    background: black;
+    background: #232323;
     min-width: 300px;
     max-width: 350px;
     min-height: 250px;
@@ -164,11 +163,13 @@ header .navbar .container .login-cart button {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #fff;
     font-size: 1rem;
     border-radius: 30%;
     position: absolute;
     right: 2px;
+    margin-top: 6px; 
+    margin-right: 8px;
     top: 3px;
     cursor: pointer;
 }
@@ -275,9 +276,16 @@ header .navbar .container .login-cart button {
         min-height: 250px;
         max-height: 450px;
     }
-    
+    .btn-style a {
+        color: #232323;
+        padding: 6px;
+    }
+    #btn-width{
+        color:#232323;
+    }
     #btn-width {
       width: 100%;
+      padding: 2px
     }
   }
   
@@ -339,5 +347,5 @@ header .navbar .container .login-cart button {
     #btn-width {
       width: 100%;
     }
-  }
+ }
 }

@@ -44,8 +44,7 @@ main .content-about-us p {
 .about-banner-us .img-banner-about {
     width: 100%;
     margin-top: 44px;
-    border-bottom: 4px solid #4e5b67;
-}
+  }
 /* media query */
 
 @media (min-width: 768px) {
