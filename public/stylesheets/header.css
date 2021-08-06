@@ -145,7 +145,7 @@ header .navbar .container .login-cart button {
     
 }
 .modal-container {
-    background: #232323;
+    background: #2b3842;
     min-width: 300px;
     max-width: 350px;
     min-height: 250px;
@@ -285,7 +285,8 @@ header .navbar .container .login-cart button {
     }
     #btn-width {
       width: 100%;
-      padding: 2px
+      padding: 2px;
+      border-bottom: 2px solid rgb(100, 173, 27);
     }
   }
   

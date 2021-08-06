@@ -13,7 +13,7 @@
   transition: all 500ms ease;
   opacity: 0;
   visibility: hidden;
-  box-shadow: 0 0 4px 4px chartreuse;
+  box-shadow: 0 0 1px 1px grey;
   background-color: white;
   padding-bottom: 20px;
   z-index: 999;
@@ -25,7 +25,7 @@
 }
 
 .containerCart {
-  background-color: white;
+  background-color: #fff;
   transition: all 500ms ease;
   position: relative;
   transform: translateX(130%);
@@ -39,7 +39,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: white;
+  color: #fff;
   height: 19px;
   width: 19px;
   cursor: pointer;
@@ -49,7 +49,7 @@
 
 .containerCart label .cruz {
   font-size: 20px;
-  color: black;
+  color: #fff;
   margin-left: 2.5px;
 }
 
@@ -73,15 +73,16 @@
 
 .containerCart .titleCart {
   padding: 15px;
-  background-color: black;
+  background-color: #4e5b67;
   color: white;
-  border-bottom: solid 5px chartreuse;
+  font-size: 17px;
+  border-bottom: solid 4px grey;
 }
 
 .containerCart .containerProduct h4 {
   width: 100%;
-  padding: 7px;
-  color: chartreuse;
+  margin-left: 10px;
+  color: #4e5b67;
 }
 
 .containerCart .containerProduct .productCardCart {
@@ -122,10 +123,10 @@
 
 .containerCart .containerProduct .productCardCart .price .trash {
   position: absolute;
-  top: 2px;
+  top: 12px;
   right: 0px;
   font-size: 18px;
-  color: chartreuse;
+  color: #4e5b67;
   margin: 0;
 }
 
@@ -136,7 +137,13 @@
   color: rgb(99, 2, 138);
 }
 
-.containerCart .containerProduct .subtotal,
+.containerCart .containerProduct .subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 21px 35px;
+  font-size: 16px;
+  color: black;
+}
 .containerCart .containerProduct .total {
   display: flex;
   justify-content: space-between;
@@ -163,39 +170,42 @@
 }
 
 .containerCart .containerProduct .buy a .moreProducts {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
-  background-color: rgb(99, 2, 138);
-  width: 175px;
-  height: 50px;
-  border-radius: 10px;
-}
+  background-color: #0084e0;
+  border: 1px solid transparent;
+  border-bottom: 2px solid #016ab3;
+  color: #fff;
+  float: none;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  outline: none;
+  padding: .5em;
+  justify-content: center;
+    align-items: center;
+  }
 
-.containerCart .containerProduct .buy a .moreProducts:hover {
-  color: rgb(99, 2, 138);
-  background-color: black;
-  border: solid 4px rgb(99, 2, 138);
-}
+
 
 .containerCart .containerProduct .buy .buttonBuy {
-  width: 200px;
-  height: 50px;
-  font-weight: bold;
-  background-color: chartreuse;
-  color: black;
-  border-radius: 10px;
-  border: 0;
-  margin: 10px 0 0 0;
-  caret-color: transparent;
+    background-color: #0084e0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #016ab3;
+    color: #fff;
+    
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    outline: none;
+    padding: .5em;
+   
+}
+.containerCart .containerProduct .buy .buttonBuy:hover {
+  background-color: #239df5
 }
 
-.containerCart .containerProduct .buy .buttonBuy:hover {
-  color: chartreuse;
-  background-color: black;
-  border: solid 4px chartreuse;
-}
+
 
 @media (min-width: 576px) {
   /*Tablet*/
@@ -232,4 +242,9 @@
   .containerCart .containerProduct .productCardCart {
     width: 85%;
   }
+  .containerCart .containerProduct .buy a .moreProducts {
+     width: 190px;
+     display: flex;
+      
+    }
 }
