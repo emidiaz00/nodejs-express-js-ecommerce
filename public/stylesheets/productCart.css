@@ -201,7 +201,8 @@
     padding: .5em;
    
 }
-.containerCart .containerProduct .buy .buttonBuy:hover {
+.containerCart .containerProduct .buy .buttonBuy:hover,
+.containerCart .containerProduct .buy a .moreProducts:hover {
   background-color: #239df5
 }
 
