@@ -6,6 +6,7 @@ let controller = require('../controllers/userController')
 router.get('/', controller.index)
 router.get('/register', controller.register)
 router.get('/shop', controller.finishBuy)
+router.get('/about', controller.about)
 
 
 module.exports = router;

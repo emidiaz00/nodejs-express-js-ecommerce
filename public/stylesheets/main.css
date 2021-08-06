@@ -349,3 +349,9 @@ main .carrusel .product .price {
         align-items: flex-end;
     }
 }
+/* banner main */
+
+.container-img-logitech-background .img-banner-logitech-back {
+    width: 100%;
+    border-bottom: 4px solid #4e5b67;
+}
