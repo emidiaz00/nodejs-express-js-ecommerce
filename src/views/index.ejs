@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-  <html lang="en">
+  <html lang="es">
     <%- include('partials/head') %> 
   <body>
     <%- include('partials/header') %> 
@@ -38,35 +38,20 @@
     </div>
     <!-- products and images -->
     <section>
-      <article>
-        <div class="img-product-main">
-          <img class="img-product-main" src="/images/main-product-1.jpg" alt="">
-          <p>Amd Ryzen 5 3400g<br> 16gb ram<br> Ssd 320gb</p>
-          <h3>Ver Producto</h3>
-        </div>
-      </article>
-      <article>
-        <div class="img-product-main">
-          <img src="/images/main-product-1.jpg" alt="" >
-          <p>Amd Ryzen 5 3600<br> 16gb ram<br> 1660 SUPER</p>
-          <h3>Ver Producto</h3>
-        </div>
-      </article>
-      <article>
-        <div class="img-product-main">
-          <img src="/images/main-product-1.jpg" alt="" >
-          <p>Intel Core i5 9660k<br> 16gb ram<br>1650 SUPER</p>
-          <h3>Ver Producto</h3>
-        </div>
-      </article>
-      <article>
-        <div class="img-product-main">
-          <img src="/images/main-product-1.jpg" alt="" >
-          <p>Amd Ryzen 3200g <br>
-          16gb ram<br>Ssd 240gb</p>
-          <h3>Ver Producto</h3>
-        </div>
-      </article>
+      
+      <% getPc.forEach(pcs => { %>
+        <article>
+          <div class="img-product-main">
+            <img class="img-product-main" src="/images/<%= pcs.image %> " alt="">
+            <p><%= pcs.Modelo %></p>
+            <p><%= pcs.Memoria %> </p>
+            <p><%= pcs.Almacenamiento %> </p>
+            <a href="/products"><h3>Ver Producto</h3></a>
+          </div>
+        </article> 
+      <% }) %>
+        
+     
     </section>
     <!-- img icons main -->
     <section>

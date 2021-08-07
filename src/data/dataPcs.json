@@ -1,0 +1,25 @@
+[{
+        "Modelo": "Amd Ryzen 3 2200g",
+        "Memoria": "4GB",
+        "Almacenamiento" : "SSD 120GB",
+        "image": "pc.jpg"
+},
+{   
+        "Modelo": "Pc AMD APU 9700",
+        "Memoria": "4GB",
+        "Almacenamiento" : "SSD 240GB",
+        "image": "pc.jpg"
+},
+{
+        "Modelo": "Amd Ryzen 5 3400g",
+        "Memoria": "8GB",
+        "Almacenamiento" : "SSD 240GB",
+        "image": "pc.jpg"
+},
+{
+        "Modelo": "AMD Ryzen 7 3700X",
+        "Memoria": "16GB",
+        "Almacenamiento" : "SSD 240GB",
+        "image": "pc.jpg"
+}
+]
