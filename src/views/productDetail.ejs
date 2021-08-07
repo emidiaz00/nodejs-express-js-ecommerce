@@ -5,9 +5,10 @@
   <%- include('partials/header')  %> 
     <div class="containerProduct">
         <!-- Slide section -->
+
         <section class="imageProduct">
-          <h2>Mouse Pulse Fire Dart</h2>
-          <img class="imgIndividual" src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse pulsefiredart" />
+          <h2><%= producto.modelo %> </h2>
+          <img class="imgIndividual" src="/images/<%= producto.image %> " alt="<%= producto.modelo %>" />
           <div class="containerSlider">
             <div class="container">
               <input type="radio" id="1" name="image-slide" hidden />
@@ -16,29 +17,29 @@
       
               <div class="slide">
                 <div class="item-slide">
-                  <img src="/images/hyperx/hx-pulsefire-dart-0.jpg" alt="mouse pulsefiredart" />
+                  <img src="/images/<%= producto.image %>" alt="<%= producto.modelo %> " />
                 </div>
       
                 <div class="item-slide">
-                  <img src="/images/hyperx/hx-pulsefire-dart-1.jpg" alt="mouse pulsefiredart" />
+                  <img src="/images/<%= producto.image %>" alt="mouse pulsefiredart" />
                 </div>
       
                 <div class="item-slide">
-                  <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse pulsefiredart"/>
+                  <img src="/images/<%= producto.image %>" alt="mouse pulsefiredart"/>
                 </div>
               </div>
       
               <div class="pagination">
                 <label for="1" class="pagination-item">
-                  <img src="/images/hyperx/hx-pulsefire-dart-0.jpg" alt="mouse pulsefiredart" />
+                  <img src="/images/<%= producto.image %>" alt="mouse pulsefiredart" />
                 </label>
       
                 <label for="2" class="pagination-item">
-                  <img src="/images/hyperx/hx-pulsefire-dart-1.jpg" alt="mouse pulsefiredart" />
+                  <img src="/images/<%= producto.image %>" alt="mouse pulsefiredart" />
                 </label>
       
                 <label for="3" class="pagination-item">
-                  <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse pulsefiredart" />
+                  <img src="/images/<%= producto.image %>" alt="mouse pulsefiredart" />
                 </label>
               </div>
             </div>
@@ -49,7 +50,7 @@
         <!-- Price section -->
         <section class="priceProduct">
           <div class="price">
-            <h1>$9200</h1>
+            <h1>$<%= producto.precio- (producto.precio * producto.discount)/100   %></h1>
             <hr />
             <p> <strong>Stock:</strong>  5 unidades disponibles</p>
             <p>
@@ -91,11 +92,11 @@
         <!-- Product specifications -->
         <section class="specifications">
           <h3>Características del Producto</h3>
-          <div>
+          <div> 
             <h4>General</h4>
             <ul>
-              <li><strong>Marca:</strong>Hyper X</li>
-              <li><strong>Modelo:</strong> Pulse Dart Fire</li>
+              <li><strong>Marca:</strong><%= producto.marca %> </li>
+              <li><strong>Modelo:</strong><%= producto.modelo %> </li>
               <li><strong>Ergonómico:</strong> Ergonómico</li>
               <li><strong>Color:</strong> Negro</li>
             </ul>

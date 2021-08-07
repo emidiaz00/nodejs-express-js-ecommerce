@@ -50,19 +50,20 @@
                 </div>
             </section>
             <section class="cards-product">
-               <% getProducts.forEach(product => { %>
+               <% productosOferta.forEach(product => { %>
                     <article class="product-item">
                     <div class="img-article">
-                        <img src="images/<%- product.image %>" alt="">
+                        <img src="/images/<%- product.image %>" alt="">
                     </div>
                     <div class="description-product">
                         <h4><% if(product.modelo.length > 19){ %>
-                            <% let modeloSlice = product.modelo.slice(0,19) %>
-                            <%= modeloSlice %>
+                            <% let productoSlice = product.modelo.slice(0,19) %>
+                            <%= productoSlice %>
                         <% }else{ %> 
                     <%= product.modelo %> 
                 <% } %> </h4>
                         <P><%- product.precio %></P>
+                        <p>descuento: <strong>%<%- product.discount %></strong></p>
                         <button class="btn-product"><a href="/products/detalle/<%- product.id %>">Ver producto</a></button>
                     </div>
                 </article>

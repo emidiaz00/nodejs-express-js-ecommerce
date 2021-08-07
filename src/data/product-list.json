@@ -4,8 +4,9 @@
     "marca": "INTEL",
     "precio": 13780,
     "descripcion": "es un procesador muy potente",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":1
     
 },
 {
@@ -14,8 +15,9 @@
     "marca": "INTEL",
     "precio": 27000,
     "descripcion": "es un procesador muy potente",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 15,
+    "id":2
 },
 {
     "categorias": "micro",
@@ -23,8 +25,9 @@
     "marca": "INTEL",
     "precio": 20000,
     "descripcion": "es un procesador muy potente",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 10,
+    "id":3
 },
 {
     "categorias": "micro",
@@ -32,8 +35,9 @@
     "marca": "AMD",
     "precio": 42000,
     "descripcion": "es un procesador muy potente",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 10,
+    "id":4
 },
 {
     "categorias": "micro",
@@ -41,120 +45,210 @@
     "marca": "AMD",
     "precio": 104000,
     "descripcion": "es un procesador muy potente",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 15,
+    "id":5
 },
 {
     "categorias": "micro",
     "modelo": "Ryzen 5 3500 4.1GHz Turbo",
+    "marca": "AMD",
     "precio": 27000,
     "descripcion": "es un procesador muy potente",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":6
 },
 {
     "categorias": "mother",
     "modelo": "Asus Prime H310M-R",
+    "marca": "ASUS",
     "precio": 6500,
     "descripcion": "Motherboard ASUS",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":7
 },
 {
     "categorias": "mother",
     "modelo": "Asus prime B365M-A",
+    "marca": "ASUS",
     "precio": 6700,
     "descripcion": "Motherboard ASUS",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":8
 },
 {
     "categorias": "mother",
     "modelo": "Gigabyte H310M-DS2",
+    "marca": "GIGABYTE",
     "precio": 7200,
     "descripcion": "Motherboard Gigabyte",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":9
+
 },
 {
     "categorias": "mother",
     "modelo": "Asrock H310CM-H",
+    "marca": "ASROCK",
     "precio": 7400,
     "descripcion": "Motherboard Asrock",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":10
 },
 {
     "categorias": "placa de video",
     "modelo": "Geforce RTX 3070 8gb",
+    "marca": "ZOTAC",
     "precio": 218000,
     "descripcion": "Placa de video ensambladora Zotac",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 10,
+    "id":11
 },
 {
     "categorias": "placa de video",
     "modelo": "Geforce GT 710",
+    "marca": "MSI",
     "precio": 8900,
     "descripcion": "Placa de video ensambladora MSI",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":12
 },
 {
     "categorias": "placa de video",
     "modelo": "RX 570 8GB OC",
+    "marca": "ASROCK",
     "precio": 95000,
     "descripcion": "Placa de video ensambladora Asrock",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":13
 },
 {
     "categorias": "placa de video",
     "modelo": "RX 570 4GB ",
+    "marca": "ASROCK",
     "precio": 68000,
     "descripcion": "Placa de video ensambladora Asrock",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":14
 },
 {
     "categorias": "memorias",
     "modelo": "DDR4 4GB 2666MHz",
+    "marca": "kingston",
     "precio": 3500,
     "descripcion": "Memoria Ram Kingston",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":15
 },
 {
     "categorias": "memorias",
     "modelo": "DDR4 4GB 2600MHz",
+    "marca": "CORSAIR",
     "precio": 4000,
     "descripcion": "Memoria Ram Corsair",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":16
 },
 {
     "categorias": "teclados",
     "modelo": "Mecanico ASUS TUF Gaming",
+    "marca": "ASUS",
     "precio": 11900,
     "descripcion": "Teclado Mecanico Gamer",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":17
 },
 {
     "categorias": "teclados",
     "modelo": "Logitech Wireless K230",
+    "marca": "LOGITECH",
     "precio": 2140,
     "descripcion": "Teclado logitech inalambrico",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":18
 },
 {
     "categorias": "teclados",
     "modelo": "Logitech G213",
+    "marca": "LOGITECH",
     "precio": 6600,
     "descripcion": "Teclado Logitech Gamer de membrana",
-    "image":"/images/main-product-1.jpg",
-    "discount": 5
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":19
+},
+{
+    "categorias": "notebook",
+    "modelo": "Del Gobierno",
+    "marca": "ASROCK",
+    "precio": 95000,
+    "descripcion": "Aguante la cristi",
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":20
+},
+{
+    "categorias": "notebook",
+    "modelo": "de facebook",
+    "marca": "ASROCK",
+    "precio": 95000,
+    "descripcion": "Macrigato",
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":21
+},
+{
+    "categorias": "notebook",
+    "modelo": "de facebook",
+    "marca": "ASROCK",
+    "precio": 95000,
+    "descripcion": "Macrigato",
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":22
+},
+{
+    "categorias": "notebook",
+    "modelo": "de facebook",
+    "marca": "ASROCK",
+    "precio": 95000,
+    "descripcion": "Macrigato",
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":23
+},
+{
+    "categorias": "notebook",
+    "modelo": "de facebook",
+    "marca": "ASROCK",
+    "precio": 95000,
+    "descripcion": "Macrigato",
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":24
+},
+{
+    "categorias": "alimentacion",
+    "modelo": "alimento balanceado",
+    "marca": "ASROCK",
+    "precio": 95000,
+    "descripcion": "Macrigato",
+    "image":"main-product-1.jpg",
+    "discount": 5,
+    "id":24
 }
 
 ]
