@@ -1,5 +1,5 @@
 let {getProducts} = require('../data/dataBase')
-const { get } = require('../routes')
+
 
 module.exports = {
     index: (req,res) => {
@@ -23,24 +23,26 @@ module.exports = {
     ofertas: (req,res) => {
 
         let productosOferta = getProducts.filter (productos => productos.discount >=10)
-        res.render('ofertas', {
-            productosOferta,
+         res.render('generalProduct', {
+            getProducts:  productosOferta,
             title: "Nuestras Ofertas"
-        }) 
+        })  
+       
        
     },
     notebook: (req,res) =>{
         let productosNotebook = getProducts.filter(productos => productos.categorias == "notebook")
-        res.render('notebooks', {
-            productosNotebook,
+        res.render('generalProduct', {
+            getProducts: productosNotebook,
             title:"Notebooks"
         })
     },
     categorias: (req,res) =>{
         let categoriasId = req.params.categorias
-        let categorias = getProducts.find (product => product.categorias == categoriasId)
-        res.render('categorias', {
-            categorias
+        let categorias = getProducts.filter(product => product.categorias == categoriasId)
+        res.render('generalProduct', {
+            getProducts: categorias,
+            title: "assdd"
         })
     }
 
