@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %> 
+  <body>
+    <header class="headerEdit">
+      <img class="logoAdmin" src="/images/logoproyecto 1.png" alt="logo" />
+      <div class="userAdmin">
+        <p>Usuario: Nombre Usuario</p>
+        <p>Cerrar Sesión</p>
+      </div>
+    </header>
+
+    <div class="containerEdit">
+      <div class="titleSearch">
+        <h1>Editar o eliminar producto</h1>
+        <div class="searchContainer">
+          <input type="search" name="buscador" id="search" placeholder="Buscar" />
+          <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+
+      <div class="cardProduct">
+        <div class="image">
+          <img src="/images/hyperx/hx-pulsefire-dart-2.jpg" alt="mouse hyperX"/>
+        </div>
+
+        <div class="description">
+          <p>Mouse HyperX Pulse Fire Dart</p>
+          <p>Precio: $9200</p>
+          <p>Descuento: 5% </p>
+        </div>
+
+        <div class="containerBtns">
+          <a href="#">Editar</a>
+          <form action="">
+            <button type="submit">Eliminar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
