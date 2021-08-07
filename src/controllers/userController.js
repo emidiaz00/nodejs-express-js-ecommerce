@@ -13,5 +13,10 @@ module.exports = {
         res.render('finishBuying', {
             title:"Paga no te hagas el boludo"
         })
+    },
+    about:(req,res) =>{
+        res.render('about', {
+            title:"about-us"
+        })
     }
 }
