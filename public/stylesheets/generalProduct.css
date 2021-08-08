@@ -217,6 +217,7 @@
     .img-article img {
         width: 180px;
         height: 150px;
+        
     }
 
     .cards-product {
@@ -241,5 +242,8 @@
     }
     .btn-product {
         padding: 8px;
+    }
+    .ul-product li a {
+        color: var(--colorPrimary);
     }
 }
