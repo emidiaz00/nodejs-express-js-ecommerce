@@ -12,7 +12,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: var(--colorTertiary); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -73,13 +73,13 @@ header .ul-links {
 #main button {
     font-size: 34px;
     margin-bottom: 80px;
-    background-color: black;
+    background-color: var(--colorPrimary);
 }
 /* navbar */
 
 header .navbar {
     height: 100px;
-    background-color: black;
+    background-color: var(--colorPrimary);
 }
 header .logo img {
     width: 94px;
@@ -90,7 +90,7 @@ header .navbar .container {
     justify-content: space-around;
 }
 header .navbar .container .logo img {
-    margin-right: 50px;
+    margin-right: 20px;
     margin-bottom: 80px;
 }
 header .navbar .container .login-cart {
@@ -106,19 +106,19 @@ header .navbar .container .search-container i {
 }
 /* login and cart */
 header .navbar .container .login-cart {
-    color: chartreuse;
+    color: var(--colorSecundary);
     display: flex;
     flex-direction: column-reverse;
 }
 header .navbar .container .login-cart a i {
-    color: chartreuse;
+    color: var(--colorSecundary);
     font-size: 28px;
     display: block;
     padding-top: 8px;
     margin-left: 12px;
 }
 header .navbar .container .login-cart button {
-    background-color: chartreuse;
+    background-color: var(--colorSecundary);
     border: none;
     width: 100%;
     font-size: 16px;
@@ -153,23 +153,24 @@ header .navbar .container .login-cart button {
     padding: 20px;
     border-radius: 15px;
     position: relative;
-    border: 1px solid rgb(99, 2, 138);
+    border: 4px solid var(--colorTertiary);
 }
 
 .close-modal {
-    background: rgb(99, 2, 138);
-    width: 25px;
-    height: 25px;
+    background: var(--colorTertiary);
+    width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding-bottom: 2px;
     font-size: 1rem;
     border-radius: 30%;
     position: absolute;
     right: 2px;
-    margin-top: 6px; 
-    margin-right: 8px;
+    margin-top: 4px; 
+    margin-right: 6px;
     top: 3px;
     cursor: pointer;
 }
@@ -209,12 +210,12 @@ header .navbar .container .login-cart button {
         margin-left: -20px;
         margin-bottom: 80px;
         height: 24px;
-        border-bottom: 4px solid chartreuse;
+        border-bottom: 4px solid var(--colorSecundary);
     }
     /* search loupe */
     header .navbar .container .search-container i {
         display: flex;
-        color: black;
+        color: var(--colorTertiary);
         font-size: 14px;
         position: relative;
         right: 18px;
@@ -252,11 +253,11 @@ header .navbar .container .login-cart button {
         color: #fff;
         font-size: 14px;
         font-weight: bold;
-        border-bottom: 1px solid chartreuse;
+        border-bottom: 1px solid var(--colorSecundary);
     }
     /* hover ul */
     header .navbar ul li a:hover {
-        color: chartreuse;
+        color: var(--colorGreen);
         border-bottom: 1px solid #fff;
     }
     
@@ -277,16 +278,18 @@ header .navbar .container .login-cart button {
         max-height: 450px;
     }
     .btn-style a {
-        color: #232323;
+        color: #fff;
         padding: 6px;
+        font-size: 14px;
     }
     #btn-width{
-        color:#232323;
+        color: #fff;
+        font-size: 14px;
     }
     #btn-width {
       width: 100%;
       padding: 2px;
-      border-bottom: 2px solid rgb(100, 173, 27);
+      border-bottom: 2px solid var(--colorSecundaryWhite);
     }
   }
   
@@ -301,7 +304,7 @@ header .navbar .container .login-cart button {
         height: 28px;
         background-color: #fff;
         border-radius: 4px;
-        border-bottom: 4px solid chartreuse;
+        border-bottom: 4px solid var(--colorSecundary);
     }
     /* search icon */
     header .navbar .container .search-container i {

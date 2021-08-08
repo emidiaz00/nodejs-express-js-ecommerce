@@ -8,7 +8,11 @@
 }
 
 :root {
-    --colorPrimary: chartreuse;
-    --colorSecundary: black;
-    --colorTertiary: #63028A;
+    --colorPrimary: #30475E;
+    --colorSecundary: #F05454;
+    --colorSecundaryWhite: #fd7979;
+    --colorTertiary: #222831;
+    --colorCuart: #E8E8E8;
+    --colorWhite: #fff;
+    --colorGreen: #839B97;
 }

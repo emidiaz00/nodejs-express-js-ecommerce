@@ -19,10 +19,9 @@
 }
 .product-item {
     width: 300px;
-    border: 2px solid black;
     margin: 15px 0;
     padding: 10px 5px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 2px 1px var(--colorPrimary);
     
 }
 .list-product {
@@ -36,7 +35,7 @@
 }
 
 .btn-product {
-    background-color: chartreuse;
+    background-color: var(--colorSecundary);
     border: none;
     padding: 7px;
     border-radius: 30px;
@@ -51,8 +50,7 @@
 }
 
 .simil-body {
-	
-	background: black;
+	background: var(--colorTertiary);
 	display: flex;
 	justify-content: center;
 	/* align-items: center; */
@@ -64,10 +62,10 @@
 
 /* Open button */
 .trigger {
-	background: black;
+	background: var(--colorTertiary);
 	outline: 0;
 	padding: 8px 15px;
-	color: #fff;
+	color: var(--colorSecundary);
      border: 0; 
 	/* border-radius: 5px; */
 	font-size: 2em;
@@ -99,7 +97,7 @@
 .full-screen-nav ul {
     top: 222px;
     position: relative;
-    background: rgba(0, 0,0, .9);
+    background: var(--colorTertiary);
     text-align: center;
     width: 100%;
     font-size: 16px;
@@ -116,7 +114,7 @@
     
 }
 .full-screen-nav ul li a {
- color: chartreuse;
+ color: var(--colorWhite);
 }
 
 /* Backgroup position and animation */
@@ -124,7 +122,8 @@
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.92);
+    top: 4px;
+	background: var(--colorTertiary);
 	cursor: pointer;
 	animation: fadeIn 0.2s ease-in-out forwards;
     
@@ -143,7 +142,6 @@
 .backdrop ul {
 	z-index: 9999;
 	position: relative;
-    
 }
 .backdrop ul li {
 	list-style: none;
@@ -179,7 +177,7 @@
 }
 .backdrop ul li a:hover,
 .backdrop ul li a i {
-	color: black;
+	color: var(--colorSecundary);
 }
 
 
@@ -192,12 +190,12 @@
     }
     .list-product{
         display: block;
-        
+        box-shadow: 2px 2px 2px 1px var(--colorPrimary);
         margin-top: 15px;
         padding-right: 15px;
         text-align: center;
         padding-left: 13px;
-        border: 2px solid #000000;
+        ;
         line-height: 30px;
         position: sticky;
         top: 0;
