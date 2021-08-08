@@ -13,9 +13,9 @@
     border-radius: 15px;
 }
 .main-content section article .img-product-main .parrafo-products {
-    color: purple;
+    color: var(--colorWhite);
     font-weight: bold;
-    background-color: #fff;
+    background-color: var(--colorPrimary);
 }
 /* Make the images invisible by default */
 .Containers {
@@ -33,8 +33,8 @@
     width: auto;
     margin-top: -23px;
     padding: 27px;
-    color: chartreuse;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--colorSecundary);
+    background-color: var(--colorTertiary);
     font-weight: bold;
     font-size: 19px;
     transition: 0.1s ease;
@@ -85,7 +85,7 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    background-color: hsla(0, 0%, 50%, 0.116);
+    background-color: var(--colorWhite);
 }
 .main-content section article .img-product-main {
     margin: 0 auto;
@@ -108,13 +108,13 @@
     margin-top: 5px;
     font-size: 16px;
     font-weight: bold;
-    border-bottom: 4px solid chartreuse;
+    border-bottom: 4px solid var(--colorPrimaryC);
     border-radius: 3px;
 }
 .main-content section article .img-product-main h3 {
     display: flex;
     justify-content: center;
-    background-color: #7200ff;
+    background-color: var(--colorPrimary);
     color: #fff;
     width: 140px;
     margin: 0 auto;
@@ -125,26 +125,29 @@
     text-transform: uppercase;
     padding: 10px;
 }
+.main-content section article .img-product-main h3:hover {
+    background-color: var(--colorPrimaryC);
+}
 .pc-recommended {
     font-size: 12px;
     margin-top: -26px;
     display: flex;
     justify-content: center;
-    background-color: hsla(0, 0%, 0%, 0.767);
+    background-color: var(--colorPrimary);
     color: #fff;
     text-transform: uppercase;
-    border-top: 4px solid chartreuse;
-    box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
+    border-top: 4px solid var(--colorSecundary);
+    
 }
 .productos-recomendados {
     font-size: 12px;
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    background-color: hsla(0, 0%, 0%, 0.767);
+    background-color: var(--colorPrimary);
     color: #fff;
     text-transform: uppercase;
-    border-top: 4px solid chartreuse;
+    border-top: 4px solid var(--colorSecundary);
     box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
     margin-top: 100px;
 }
@@ -206,11 +209,11 @@
     margin: 0 auto;
     align-content: center;
     background-color: #fff;
-    border: purple 1px solid;
+    box-shadow: 2px 2px 2px 1px var(--colorPrimary);
     border-radius: 5px;
 }
 .product:hover {
-    border: 4px solid hsl(90, 100%, 50%);
+    border: 4px solid var(--colorSecundary);
 }
 .img-product-links {
     display: none;
@@ -229,18 +232,18 @@ header .ul-links {
 /* carrousel main product  */
 main .carrusel .product img {
     width: 80px;
-    height: 40px;
+    
 }
 main .carrusel .product h5 {
     font-size: 12px;
-    color: #222;
+    color: var(--colorPrimary);
     font-weight: 400;
     cursor: pointer;
 }
 main .carrusel .product .price {
     font-weight: 600;
     font-size: 0.5em;
-    color: #403b3b;
+    color: var(--colorPrimary);
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -276,7 +279,7 @@ main .carrusel .product .price {
         width: 180px;
     }
     .main-content section article .img-product-main img:hover {
-        border: 5px solid chartreuse;
+        border: 5px solid var(--colorPrimaryC);
         border-radius: 10px;
     }
     header .navbar .container .logo img {
@@ -286,7 +289,7 @@ main .carrusel .product .price {
     .main-content section article .img-product-main p {
         text-align: center;
         padding: 10px;
-        background-color: hsla(240, 61%, 16%, 0.575);
+        background-color: var(--colorPrimary);
         color: #fff;
         font-size: 14px;
     }
@@ -307,7 +310,7 @@ main .carrusel .product .price {
     main .carrusel .product .price {
         font-weight: 600;
         font-size: 1em;
-        color: #403b3b;
+        color: var(--colorPrimary);
         cursor: pointer;
         display: flex;
         justify-content: center;
@@ -335,14 +338,14 @@ main .carrusel .product .price {
     }
     main .carrusel .product h5 {
         font-size: 14px;
-        color: #222;
+        color: var(--colorPrimary);
         font-weight: 400;
         cursor: pointer;
     }
     main .carrusel .product .price {
         font-weight: 600;
         font-size: 1.5em;
-        color: #403b3b;
+        color: var(--colorPrimary);
         cursor: pointer;
         display: flex;
         justify-content: center;

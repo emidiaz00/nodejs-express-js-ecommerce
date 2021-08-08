@@ -59,7 +59,7 @@
 
 .login-gmail a {
     display: flex;
-    background-color: rgb(99, 2, 138);
+    background-color: var(--colorTertiary);
     border-radius: 5px;
     padding: 2px;
     margin: 0 auto;
@@ -86,13 +86,30 @@
     position: relative;
     bottom: -5px;
 }
+#remember-password {
+    font-size: 14px;
+}
+.btn-style a {
+    color: var(--colorPrimary);
+    font-weight: bold;
+}
 
 .section2-login {
     background-color: transparent;
 }
+.section2-login .enter-register {
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    font-size: 18px;
+}
 
 .remember-password {
+    font-size: 14px;
     margin: 15px;
+    
+}
+#remember-password {
+    color: #fff;
 }
 
 .enter {
@@ -101,16 +118,19 @@
 
 .enter-register {
     text-align: center;
+    
 }
 
 .a-login {
-    color: white;
+    color: var(--colorPrimary);
 }
 
 .fa-envelope {
-    font-size: 25px;
+    font-size: 20px;
 }
-
+.fas-fa-lock {
+    font-size: 20px;
+}
 @media (min-width: 576px){
     .main-login .section1-login .login-img img {
         display:block;

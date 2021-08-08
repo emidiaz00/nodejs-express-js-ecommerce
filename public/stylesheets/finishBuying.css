@@ -122,15 +122,15 @@
   height: 40px;
   font-weight: bold;
   background-color: var(--colorPrimary);
-  color: black;
+  color: #fff;
   border-radius: 10px;
   border: 0;
 }
 
 .containerBuy .payment button:hover {
-  color: var(--colorPrimary);
-  background-color: black;
-  border: solid 4px var(--colorPrimary);
+  
+  background-color: var(--colorSecundaryWhite);
+  
 }
 
 @media (min-width: 576px) {

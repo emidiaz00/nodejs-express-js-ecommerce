@@ -13,7 +13,7 @@
   transition: all 500ms ease;
   opacity: 0;
   visibility: hidden;
-  box-shadow: 0 0 1px 1px grey;
+  box-shadow: 0 0 2px 1px var(--colorPrimaryC);
   background-color: white;
   padding-bottom: 20px;
   z-index: 999;
@@ -73,10 +73,10 @@
 
 .containerCart .titleCart {
   padding: 15px;
-  background-color: #4e5b67;
+  background-color: var(--colorPrimary);
   color: white;
   font-size: 17px;
-  border-bottom: solid 4px grey;
+  border-bottom: solid 4px var(--colorPrimaryC);
 }
 
 .containerCart .containerProduct h4 {
@@ -90,7 +90,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  border: solid 1px gray;
+  
+  box-shadow: 2px 2px 2px 1px rgba(8, 6, 6, 0.2);
   height: 80px;
 }
 
@@ -126,7 +127,7 @@
   top: 12px;
   right: 0px;
   font-size: 18px;
-  color: #4e5b67;
+  color: var(--colorSecundary);
   margin: 0;
 }
 
@@ -134,7 +135,7 @@
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 17px;
-  color: rgb(99, 2, 138);
+  color: var(--colorPrimary);
 }
 
 .containerCart .containerProduct .subtotal {
@@ -142,19 +143,19 @@
   justify-content: space-between;
   margin: 10px 21px 35px;
   font-size: 16px;
-  color: black;
+  color: var(--colorPrimary);
 }
 .containerCart .containerProduct .total {
   display: flex;
   justify-content: space-between;
   margin: 10px 21px 35px;
   font-size: 20px;
-  color: black;
+  color: var(--colorPrimary);
 }
 
 .containerCart .containerProduct .subtotal p span,
 .containerCart .containerProduct .total p span {
-  color: rgb(99, 2, 138);
+  color: var(--colorPrimary);
 }
 
 .containerCart .containerProduct .total {
@@ -170,9 +171,9 @@
 }
 
 .containerCart .containerProduct .buy a .moreProducts {
-  background-color: #0084e0;
+  background-color: var(--colorPrimary);
   border: 1px solid transparent;
-  border-bottom: 2px solid #016ab3;
+  border-bottom: 2px solid var(--colorPrimaryC);
   color: #fff;
   float: none;
   width: 200px;
@@ -185,9 +186,9 @@
   align-items: center;
   }
 .containerCart .containerProduct .buy .buttonBuy {
-    background-color: #0084e0;
+    background-color: var(--colorPrimary);
     border: 1px solid transparent;
-    border-bottom: 2px solid #016ab3;
+    border-bottom: 2px solid var(--colorPrimaryC);
     color: #fff;
     width: 200px;
     margin-left: auto;
