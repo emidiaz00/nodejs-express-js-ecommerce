@@ -1,6 +1,6 @@
 .body-about {
     height: 100%;
-    background-color: #494848;
+    background-color: var(--colorWhite);
 }
 .ul-about-view {
     display: flex;

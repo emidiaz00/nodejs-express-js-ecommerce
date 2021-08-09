@@ -18,5 +18,10 @@ module.exports = {
         res.render('about', {
             title:"about-us"
         })
-    }
+    },
+    cargaProducts:(req,res) =>{
+        res.render('cargaProducts', {
+            title:"carga-productos"
+        })
+}
 }
