@@ -67,3 +67,15 @@
   padding: 8px;
   margin: 0 auto;
 }
+@media (min-width: 576px) {
+  .container-productos-carga-individual {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+}
+@media (min-width: 768px) {
+  #btn-submit-finalizar-edit {
+    width: 30%;
+  }
+}
