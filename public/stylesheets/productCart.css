@@ -221,6 +221,11 @@
     justify-content: space-around;
     align-items: baseline;
   }
+
+  .lbl-modalCart i {
+    font-size: 30px;
+    margin: 0px 12px;
+  }
 }
 
 @media (min-width: 992px) {
