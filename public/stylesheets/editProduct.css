@@ -42,7 +42,7 @@
 .searchContainer input {
   width: 100%;
   height: 25px;
-  border: solid 2px purple;
+  border: solid 2px var(--colorSecundary);
   border-radius: 25px;
   padding: 10px;
 }
@@ -97,14 +97,26 @@
 }
 
 .cardProduct .containerBtns a {
-  background-color: black;
-  color: chartreuse;
+  background-color: var(--colorSecundaryWhite);
+  color: var(--colorPrimaryC);
   padding: 5px 10px;
+  font-weight: bold;
+}
+
+.cardProduct .containerBtns a:hover {
+  background-color: var(--colorSecundary);
+  color: var(--colorPrimary);
 }
 
 .cardProduct .containerBtns form button {
-  color: red;
+  color: var(--colorSecundary);
+  font-weight: bold;
   border: solid 2px;
+}
+
+.cardProduct .containerBtns form button:hover {
+  color: var(--colorSecundaryWhite);
+  background-color: var(--colorPrimaryC);
 }
 
 @media (min-width: 576px) {
