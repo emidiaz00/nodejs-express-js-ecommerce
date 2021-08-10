@@ -14,10 +14,6 @@ module.exports = {
             title:"Fin de transaccion"
         })
     },
-    about:(req,res) =>{
-        res.render('about', {
-            title:"about-us"
-        })
-    }
+    
 
 }
