@@ -42,7 +42,7 @@ module.exports = {
         let categorias = getProducts.filter(product => product.categorias == categoriasId)
         res.render('generalProduct', {
             getProducts: categorias,
-            title: "assdd"
+            title: "Productos"
         })
     },
 }

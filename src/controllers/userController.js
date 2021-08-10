@@ -11,17 +11,13 @@ module.exports = {
     },
     finishBuy:(req,res) =>{
         res.render('finishBuying', {
-            title:"Paga no te hagas el boludo"
+            title:"Fin de transaccion"
         })
     },
     about:(req,res) =>{
         res.render('about', {
             title:"about-us"
         })
-    },
-    cargaProducts:(req,res) =>{
-        res.render('cargaProducts', {
-            title:"carga-productos"
-        })
-}
+    }
+
 }

@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-let {index , product, ofertas, notebook, categorias, cargaProducts }= require('../controllers/productController')
+let {index , product, ofertas, notebook, categorias}= require('../controllers/productController')
 
 /* GET home page. */
 router.get('/',index)
