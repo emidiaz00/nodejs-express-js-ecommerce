@@ -8,5 +8,10 @@ module.exports = {
         res.render('editProduct',{
             title: 'Edicion de productos'
         })
-    }
+    },
+    editForm:(req,res) =>{
+        res.render('editForm', {
+            title:"Edicion del producto"
+        })
+    },
 }

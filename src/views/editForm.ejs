@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %> 
+</head>
+<body>
+    <header class="headerEdit">
+        <img class="logoAdmin" src="/images/logo-principal.png" alt="logo" />
+        <div class="userAdmin">
+            <p>Usuario: Nombre Usuario</p>
+            <p>Cerrar Sesión</p>
+        </div>
+    </header>
+    <main class="main-carga-productos-panel">
+        <h2 class="carga-productos-panel-adm">Edicion de productos</h1>
+            <h4 class="nuevo-producto-panel-adm">producto</h3>
+                <div class="carga-form-productos" >
+                    <div class="container-productos-carga-individual">
+                        <input class="producto-individual-carga" type="text" placeholder="Nombre" />
+                        <input class="producto-individual-carga"type="text" placeholder="Subcategoria">
+                        <input type="text" class="producto-individual-carga" placeholder="Descuento"/>
+                        <input type="text" class="producto-individual-carga" placeholder="Categoria"/>
+                        <input type="text" class="producto-individual-carga" placeholder="Precio"/>
+                        <input type="text" class="producto-individual-carga" placeholder="stock"/>
+                    </div>
+                    <p id="desc-producto-carga-productos">Descripcion del producto</p>
+                    <textarea class="desc-product-text-area" name="" id="" ></textarea>
+                    <p class="add-file-img-carga-products">Agregar archivos de imagen</p>
+                    <div class="container-img-products-carga-end">
+                        <input  class="buttonForm" type="file" id="file" /><br><br>
+                        <div id="submit-fn">
+                            <button type="submit" id="btn-submit-finalizar-edit">Finalizar</button>
+                        </div>
+                    </div>
+                </main>
+            </body>
+            </html>
