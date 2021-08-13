@@ -14,24 +14,27 @@
     <main class="main-carga-productos-panel">
         <h2 class="carga-productos-panel-adm">Carga de productos</h1>
             <h4 class="nuevo-producto-panel-adm">Nuevo producto</h3>
+                <form action="/admin/agregarProducto" method="POST">
                 <div class="carga-form-productos" >
                     <div class="container-productos-carga-individual">
-                        <input class="producto-individual-carga" type="text" placeholder="Nombre" />
-                        <input class="producto-individual-carga"type="text" placeholder="Subcategoria">
-                        <input type="text" class="producto-individual-carga" placeholder="Descuento"/>
-                        <input type="text" class="producto-individual-carga" placeholder="Categoria"/>
-                        <input type="text" class="producto-individual-carga" placeholder="Precio"/>
-                        <input type="text" class="producto-individual-carga" placeholder="stock"/>
+                        <input class="producto-individual-carga" type="text" name="modelo" placeholder="Modelo" />
+                        <input class="producto-individual-carga"type="text" name="marca" placeholder="Marca">
+                        <input type="text" class="producto-individual-carga" name="discount" placeholder="Descuento"/>
+                        <input type="text" class="producto-individual-carga" name="categorias" placeholder="Categoria"/>
+                        <input type="text" class="producto-individual-carga" name="precio" placeholder="Precio"/>
+                        
                     </div>
                     <p id="desc-producto-carga-productos">Descripcion del producto</p>
-                    <textarea class="desc-product-text-area" name="" id="" ></textarea>
+                    <textarea class="desc-product-text-area" name="description" id="" ></textarea>
                     <p class="add-file-img-carga-products">Agregar archivos de imagen</p>
                     <div class="container-img-products-carga-end">
-                        <input  class="buttonForm" type="file" id="file" /><br><br>
+                        <!-- <input  class="buttonForm" type="file" id="file" name="image" /><br><br> -->
                         <div id="submit-fn">
                             <button type="submit" id="btn-submit-finalizar-edit">Finalizar</button>
                         </div>
                     </div>
+                </div>
+            </form>
                 </main>
             </body>
             </html>

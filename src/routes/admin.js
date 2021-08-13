@@ -1,11 +1,14 @@
 var express = require('express');
 var router = express.Router();
-let {cargaProducts, editProducts, editForm }= require('../controllers/adminController')
+let {formAgregar, editProducts, editForm , agregarProducto}= require('../controllers/adminController')
 
-/* GET home page. */
-router.get('/cargaProducts',cargaProducts)
+/* GET  donde requerimos el formulario para agregar nuevo producto */
+router.get('/agregarProducto', formAgregar)
+/* Metodo POST ,Captura los datos para agregar un producto*/
+router.post('/agregarProducto',agregarProducto)
 
-router.get('/editProducts', editProducts)
+/* Index del admin, donde vamos a ver todos nuestros productos */
+router.get('/index', editProducts)  
 router.get('/edit', editForm)
 
 
