@@ -32,9 +32,10 @@ module.exports = {
         res.redirect('/products')
         
     },
-    editProducts:(req,res) =>{
+    listProducts:(req,res) =>{
         res.render('editProduct',{
-            title: 'Edicion de productos'
+            title: 'Edicion de productos',
+            productos : getProducts
         })
     },
     editForm:(req,res) =>{

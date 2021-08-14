@@ -71,10 +71,14 @@
   align-items: center;
   border: solid 1px;
   border-radius: 10px;
+  flex-direction: column;
+  padding: 10px 10px;
+  width: 240px;
 }
 
 .cardProduct .image img {
-  width: 95px;
+  /* width: 95px; */
+  max-width: 60px;
   margin-right: 5px;
 }
 
@@ -85,6 +89,7 @@
 
 .cardProduct .containerBtns {
   text-align: center;
+  padding: 10px;
 }
 
 .cardProduct .containerBtns a,
@@ -132,6 +137,7 @@
     justify-content: space-around;
     width: 80%;
     max-width: 820px;
+    flex-direction: row;
   }
 
   .cardProduct div {
