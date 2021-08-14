@@ -22,6 +22,7 @@ module.exports = {
             precio: req.body.precio.trim(),
             categorias: req.body.categorias.trim(),
             discount: req.body.discount.trim(),
+            descripcion: req.body.descripcion,
             image: 'default.png'
         }
 
@@ -39,9 +40,31 @@ module.exports = {
         })
     },
     editForm:(req,res) =>{
-        res.render('editForm', {
-            title:"Edicion del producto"
+        let producto = getProducts.find(producto => {
+            return producto.id === +req.params.id
         })
+
+        res.render('editForm', {
+            title:"Edicion del producto",
+            producto
+        })
+    },
+    editProduct: (req,res) => {
+      let {modelo, marca, precio , categorias , discount,descripcion} = req.body
+
+      getProducts.forEach(producto => {
+          if(producto.id === +req.params.id){
+              producto.modelo = modelo.trim()
+              producto.marca = marca.trim()
+              producto.precio = precio.trim()
+              producto.categorias = categorias.trim()
+              producto.discount = discount.trim()
+              producto.descripcion = descripcion.trim()
+        }
+      })
+
+      addProduct(getProducts)
+      res.redirect('/admin/index')
     },
 
     deleteProduct : (req, res) => {
