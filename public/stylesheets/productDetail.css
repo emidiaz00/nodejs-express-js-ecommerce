@@ -62,6 +62,10 @@
   margin: 0 25px;
 }
 
+.item-slide img{
+  max-width: 90%;
+}
+
 .pagination {
   position: absolute;
   bottom: 1px;
