@@ -1,5 +1,3 @@
-
-
 .containerProduct {
   display: flex;
   flex-direction: column;
@@ -35,10 +33,8 @@
 }
 
 .containerSlider div img {
-  max-width: 85%;
-  margin: 0 20px;
+  width: 100%;
 }
-
 
 .containerSlider .container {
   position: relative;
@@ -50,21 +46,25 @@
   display: flex;
   transform: translate3d(0, 0, 0);
   transition: all 600ms;
+  height: 390px;
+  align-items: flex-start;
 }
 
 .item-slide {
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   flex-shrink: 0;
   flex-grow: 0;
-  max-width: 103%;
+  width: 450px;
+  margin: 0 25px;
 }
 
 .pagination {
   position: absolute;
-  bottom: -1px;
-  left: 0;
+  bottom: 1px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -89,11 +89,9 @@
   transition: all 300ms;
 }
 
-
 .pagination-item img {
   display: inline-block;
-  max-width: none;
-  height: 100%;
+  max-width: 100%;
   transform: scale(1.1);
   opacity: 0.5;
   transition: all 300ms;
