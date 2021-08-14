@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-let {formAgregar, listProducts, editForm , agregarProducto}= require('../controllers/adminController')
+let {formAgregar, listProducts, editForm , agregarProducto, deleteProduct}= require('../controllers/adminController')
 
 /* GET  donde requerimos el formulario para agregar nuevo producto */
 router.get('/agregarProducto', formAgregar)
@@ -11,6 +11,7 @@ router.post('/agregarProducto',agregarProducto)
 router.get('/index', listProducts)  
 router.get('/edit/:id', editForm)
 
+router.delete('/delete/:id', deleteProduct )
 
 module.exports = router;
 

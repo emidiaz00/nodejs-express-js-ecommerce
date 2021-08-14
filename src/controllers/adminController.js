@@ -42,6 +42,19 @@ module.exports = {
         res.render('editForm', {
             title:"Edicion del producto"
         })
+    },
+
+    deleteProduct : (req, res) => {
+        getProducts.forEach(producto => {
+            if (producto.id === +req.params.id) {
+                let productToDelete = getProducts.indexOf(producto);
+                getProducts.splice(productToDelete, 1)
+            }
+        })
+        
+        addProduct(getProducts);
+
+        res.redirect('/admin/index')
     }
     
 }
