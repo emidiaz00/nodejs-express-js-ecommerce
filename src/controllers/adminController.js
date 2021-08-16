@@ -55,7 +55,8 @@ module.exports = {
     },
     editProduct: (req,res) => {
       let {modelo, marca, precio , categorias , discount,descripcion} = req.body  // esto es un destructuring del objeto body , donde traemos toda la info de los campos que vamos a editar
-
+      
+        
       getProducts.forEach(producto => {
           if(producto.id === +req.params.id){   // aca le decimos que si el product.id que recibimos por parametro coincide con el producto que edite los campos con el objeto que recibimos por el form
               producto.modelo = modelo.trim()
@@ -64,8 +65,10 @@ module.exports = {
               producto.categorias = categorias.trim()
               producto.discount = discount.trim()
               producto.descripcion = descripcion.trim()
+              producto.image = req.file.filename
         }
       })
+      //res.send(req.file)
 
       addProduct(getProducts)
       res.redirect('/admin/index')

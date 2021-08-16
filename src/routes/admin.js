@@ -27,7 +27,7 @@ router.get('/index', listProducts)
 /* GET - requiero el formulario de edicion con los values */
 router.get('/edit/:id', editForm)
 /* PUT -  edito el formulario y lo envio */
-router.put('/edit/:id',editProduct)
+router.put('/edit/:id',upload.single('product-image') ,editProduct)
 
 
 router.delete('/delete/:id', deleteProduct )

@@ -14,7 +14,7 @@
     <main class="main-carga-productos-panel">
         <h2 class="carga-productos-panel-adm">Editando producto <%= producto.id  %> </h1>
             <h4 class="nuevo-producto-panel-adm">producto</h3>
-                <form action="/admin/edit/<%= producto.id %>?_method=PUT" method="POST">
+                <form action="/admin/edit/<%= producto.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
                 <div class="carga-form-productos" >
                     <div class="container-productos-carga-individual">
                         <input class="producto-individual-carga" type="text" placeholder="Modelo" name="modelo" value="<%= producto.modelo %>" />
@@ -40,7 +40,7 @@
                     <textarea class="desc-product-text-area" name="descripcion" id="descripcion" ><%= producto.descripcion %></textarea>
                     <p class="add-file-img-carga-products">Agregar archivos de imagen</p>
                     <div class="container-img-products-carga-end">
-                        <input  class="buttonForm" type="file" id="file" /><br><br>
+                        <input  class="buttonForm" type="file" id="file" name="product-image" /><br><br>
                         <div id="submit-fn">
                             <button type="submit" id="btn-submit-finalizar-edit">Finalizar</button>
                         </div>
