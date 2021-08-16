@@ -16,6 +16,8 @@ module.exports = {
         });
 
         let nuevoProducto = {
+            
+
             id: lastId + 1,  // para crear un nuevo producto , le estamos diciendo que el id que recibe el nuevo producto , va a ser el valor del lastid, osea el ultimo producto que  itero +1
             modelo: req.body.modelo.trim(),  // escribimos el modelo , con el parametro que recibimos por el  objeto body que nos envia la pagina y con el "." estamos entrando en el objeto
             marca: req.body.marca.trim(),
@@ -23,8 +25,10 @@ module.exports = {
             categorias: req.body.categorias.trim(),
             discount: req.body.discount.trim(),
             descripcion: req.body.descripcion,
-            image: 'default.png'
+            image: req.file.filename
         }
+
+        
 
         getProducts.push(nuevoProducto);   // le estamos metiendo a la variable getproducts que es la que tiene todos los productos el nuevo producto que estamos creando
         
